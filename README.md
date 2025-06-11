@@ -41,7 +41,8 @@
 
 ## 📫 Como me encontrar
 
-- GitHub: [sidneialmeida](https://github.com/sidneialmeida)
+- GitHub: [sidnei-almeida](https://github.com/sidnei-almeida)
 - Email: sidnei.almeida1806@gmail.com
+- Portfolio: [Github Pages](https://sidnei-almeida.github.io/)
 
 ---
