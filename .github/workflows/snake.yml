@@ -15,6 +15,9 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Generate snake.svg
         uses: Platane/snk@master
         id: snake-gif
@@ -34,4 +37,5 @@ jobs:
           publish_dir: ./dist
           publish_branch: output
           commit_message: "Update snake animation [skip ci]"
+          cname: false
 
