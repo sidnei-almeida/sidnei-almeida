@@ -198,8 +198,6 @@
 
 ![Snake animation](https://raw.githubusercontent.com/sidnei-almeida/sidnei-almeida/output/github-contribution-grid-snake.svg)
 
-<kbd>▸</kbd> *Note: The animation will appear after running the "Generate Snake Animation" workflow in the Actions tab*
-
 </div>
 
 <br>
