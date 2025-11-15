@@ -2,19 +2,13 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=700&height=100&lines=╔═══════════════════════════════╗;║%20%20SIDNEI%20ALMEIDA%20%20║;║%20%20ML%20ENGINEER%20%20║;╚═══════════════════════════════╝" alt="Typing SVG" />
 
-### <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"> Hello, I'm Sidnei Almeida!
+### Hello, I'm Sidnei Almeida!
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=500&color=00FFFF&center=true&vCenter=true&width=500&lines=$%20whoami;Data%20Scientist%20%7C%20ML%20Engineer%20%7C%20AI%20Enthusiast" alt="Terminal typing" />
 
-<kbd>
-  <kbd>▸</kbd> Business Management & Data Science Student
-</kbd>
-<kbd>
-  <kbd>▸</kbd> ML Engineer
-</kbd>
-<kbd>
-  <kbd>▸</kbd> Data Analyst
-</kbd>
+<br>
+
+<kbd>▸</kbd> Business Management & Data Science Student <kbd>▸</kbd> ML Engineer <kbd>▸</kbd> Data Analyst
 
 <br>
 
@@ -23,17 +17,11 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://sidnei-almeida.github.io/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sidnei.almeida1806@gmail.com)
 
-</div>
-
 <br>
 
-<div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2000&pause=500&color=00FFFF&center=true&vCenter=true&width=800&lines=▸+Transforming+data+into+insights+through+ML;▸+Computer+Vision+%7C+Deep+Learning+%7C+NLP" alt="Typing SVG" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2000&pause=500&color=00FFFF&center=true&vCenter=true&width=800&lines=▸+Transforming+data+into+insights+through+ML;▸+Computer+Vision+%7C+Deep+Learning+%7C+NLP" alt="Typing SVG" />
-
-<kbd>
-  <kbd>▸</kbd> Currently exploring: <kbd>Advanced ML</kbd> • <kbd>NLP</kbd> • <kbd>Deep Learning</kbd> • <kbd>Predictive Modeling</kbd>
-</kbd>
+<kbd>▸</kbd> Currently exploring: <kbd>Advanced ML</kbd> • <kbd>NLP</kbd> • <kbd>Deep Learning</kbd> • <kbd>Predictive Modeling</kbd>
 
 </div>
 
@@ -235,11 +223,11 @@
 
 <div align="center">
 
-### <kbd>▸</kbd> If you find my projects interesting, feel free to star them! <kbd>▸</kbd>
+<kbd>▸</kbd> If you find my projects interesting, feel free to star them! <kbd>▸</kbd>
 
-**Let's connect and collaborate on exciting data science and AI projects!**
+Let's connect and collaborate on exciting data science and AI projects!
 
-**From Caxias do Sul, Brazil with lots of coffee**
+From Caxias do Sul, Brazil with lots of coffee
 
 <br>
 
