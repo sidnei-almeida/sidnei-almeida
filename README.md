@@ -210,12 +210,8 @@
 
 <div align="center">
 
-<kbd>
-  <kbd>╔═══════════════════════════════════════════════════════╗</kbd><br>
-  <kbd>║</kbd> "Code is like humor. When you have to explain it, it's bad." <kbd>║</kbd><br>
-  <kbd>║</kbd> — Cory House <kbd>║</kbd><br>
-  <kbd>╚═══════════════════════════════════════════════════════╝</kbd>
-</kbd>
+<kbd>▸</kbd> *"Code is like humor. When you have to explain it, it's bad."*  
+<kbd>▸</kbd> — **Cory House**
 
 </div>
 
