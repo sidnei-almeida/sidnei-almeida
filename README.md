@@ -31,7 +31,7 @@
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sidnei-almeida&show_icons=true&theme=dark&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=00FFFF&icon_color=00FFFF&text_color=ffffff&border_color=00FFFF&cache_seconds=1800)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sidnei-almeida&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00FFFF&icon_color=00FFFF&text_color=ffffff&border_color=00FFFF&cache_seconds=1800)
 ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sidnei-almeida&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00FFFF&text_color=9CA3AF&langs_count=8&border_color=00FFFF)
 ![GitHub Streak](https://github-readme-streak-stats.demolab.com/?user=sidnei-almeida&theme=dark&hide_border=true&background=0d1117&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF&sideLabels=00FFFF)
 
