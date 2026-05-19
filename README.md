@@ -39,8 +39,6 @@
 <img src="https://cdn.simpleicons.org/ultralytics/FFFFFF" alt="Ultralytics" width="40" height="40" style="margin-left:14px;padding:6px;background:#242938;border-radius:14px;vertical-align:middle;" title="Ultralytics (YOLOv8)"/>
 </p>
 
-<sub>Pandas and NumPy are excluded from Skill Icons because <strong>skillicons.dev</strong> leaves those slots blank; Ultralytics is added next to the bottom row (Skill Icons has no working tile for it). Matching logos below come from <strong>Devicon</strong>.</sub>
-
 <p align="center">
 <img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" title="Pandas"/>
 &nbsp;&nbsp;
