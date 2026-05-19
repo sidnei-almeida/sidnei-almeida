@@ -1,8 +1,8 @@
 # Sidnei Almeida
 
-**AI Engineer | Machine Learning Engineer | Computer Vision | Data Science**
+**AI Engineer | Machine Learning Engineer | Computer Vision | ML Systems**
 
-I design and ship practical AI and data systems: classical and deep models, computer vision pipelines, data preparation, APIs and lightweight apps, plus evaluation and iteration toward deployment. The emphasis is on turning raw data into reliable models, interfaces and decision support you can run outside a notebook.
+I build **end-to-end AI and ML systems**: from data ingestion and validation through modeling, evaluation and packaging, to **APIs, interactive apps and deployed demos**. Work spans classical ML, deep learning and computer vision, with emphasis on workflows that survive beyond a notebook (repeatable pipelines, integration surfaces and iteration in production-shaped constraints).
 
 <p align="left">
   <a href="https://sidnei-almeida.github.io/"><img src="https://img.shields.io/badge/Portfolio-2d333b?style=flat&labelColor=2d333b&logo=github&logoColor=c9d1d9" alt="Portfolio" /></a>
@@ -18,47 +18,50 @@ I design and ship practical AI and data systems: classical and deep models, comp
 
 ## About
 
-Engineer-oriented developer working across AI, machine learning, computer vision and data science. Recent work spans end-to-end workflows: sourcing and validating data, preprocessing and features, training and rigorous evaluation, exposing models through APIs or small apps, and packaging demos or dashboards for stakeholders.
+Hands-on **machine learning and AI engineering** with a bias toward **shipping**: turning requirements into trainable datasets, trained models with disciplined evaluation, and **consumable surfaces** (HTTP APIs, Streamlit or web-style demos, hosted assets).
 
-I gravitate toward production-shaped problems, not one-off notebook exercises: detection and classification in images, OCR-style pipelines, anomaly detection on tabular signals and predictive models tied to interpretable evaluation.
+Typical scope includes **deployment-minded** Computer Vision (detection, classification, ALPR-style pipelines, real-time inference paths), **tabular ML** (prediction, segmentation via clustering where relevant), **data preparation and ETL**, and newer **AI systems** work (RAG, document Q&A, managed LLM APIs and local inference stacks).
 
-Background includes business management and data science studies; technical delivery and portfolio projects are the primary focus here.
-
----
-
-## Core Focus
-
-- Machine learning engineering and reproducible experimentation  
-- Deep learning and computer vision (detection, classification, transfer learning)  
-- Data science and predictive modeling with clear metrics and comparisons  
-- Data pipelines, lightweight APIs and interactive demos (Streamlit and similar)  
-- Model evaluation, error analysis and iteration toward deployment constraints  
-- Dashboards and analytical tools aimed at decisions, not only charts  
+Background includes business management and data-intensive studies; **delivery and repositories here reflect engineering practice**, not slide-level analytics only.
 
 ---
 
-## Technical Stack
+## How I work (core focus)
 
-**Languages**  
-Python, SQL (including SQLite-backed workflows), HTML, CSS  
+- **ML engineering**: reproducible training, cross-validation, feature work and metric choices aligned with the decision or SLA  
+- **Deep learning and CV**: detection and classification, transfer learning, sequences when the problem demands it  
+- **Data paths**: structured sources, cleaning, ETL and analytical products stakeholders can navigate  
+- **Integration**: FastAPI and Streamlit (plus HTML/CSS/JS where the UI needs it), API-first demos and dashboards  
+- **Deployment**: static and serverless fronts, managed backends, HF Spaces and cloud primitives on GCP/AWS as appropriate  
+- **AI systems**: retrieval-augmented flows, document Q&A, API-backed or local LLM automation  
 
-**Machine learning**  
-scikit-learn, XGBoost, TensorFlow, Keras, PyTorch  
+---
 
-**Computer vision**  
-YOLO (including YOLOv8 workflows), OpenCV, VGG16 and transfer learning, image classification and object detection  
+## Engineering toolkit
 
-**Data and visualization**  
-Pandas, NumPy, Matplotlib, Seaborn, Plotly  
+Stack below is grouped by **what I deliver**, not by buzzwords. Core languages and version control sit underneath everything.
 
-**APIs, interfaces and delivery**  
-FastAPI, Streamlit, desktop UI (e.g. CustomTkinter where noted in repos)  
+**Foundation:** Python, SQL, JavaScript, Git, GitHub  
 
-**NLP (project-driven)**  
-NLTK, spaCy  
+### Machine Learning Engineering
 
-**Tooling**  
-Git, GitHub, Jupyter, LaTeX for technical writing and reporting  
+Building and validating predictive systems on structured data: problem formulation, **feature engineering**, **classification, regression and clustering**, **scikit-learn** and **XGBoost**, plus rigorous **model evaluation** (appropriate splits, cross-validation, error analysis) so models can be compared and promoted with clarity.
+
+### Deep Learning & Computer Vision
+
+End-to-end perception workflows: **TensorFlow / Keras**, **PyTorch**, **transfer learning** (e.g. **VGG16**), **autoencoders**, **LSTM** when sequential structure matters, **YOLOv8** and **OpenCV**, **object detection** and **image classification**, **ALPR / license plate recognition**, and paths toward **real-time inference** where latency and IO allow.
+
+### Data Engineering & Analytics
+
+Turning raw inputs into trainable and auditable tables: **Pandas**, **NumPy**, **data preprocessing**, **ETL-style** flows, **CSV, Excel, SQLite** and other structured pipelines, plus **dashboards and analytical applications** that expose metrics and slices of the data to users.
+
+### APIs, Apps & Deployment
+
+Exposing models and data products: **FastAPI**, **Streamlit**, **HTML, CSS and JavaScript** for interfaces when needed, **API-based ML demos** and interactive dashboards, shipping to **Hugging Face Spaces**, **GitHub Pages**, **Vercel**, **Firebase**, **Supabase**, **GCP** and **AWS** depending on cost, auth and integration constraints.
+
+### AI Systems & Automation
+
+Layer above traditional ML where retrieval and generation matter: **RAG**, **document Q&A**, **local models via Ollama**, integrations with **Groq** and **Gemini** APIs, and **automation workflows** that compose models, tools and external services safely.
 
 ---
 
@@ -66,35 +69,35 @@ Git, GitHub, Jupyter, LaTeX for technical writing and reporting
 
 | Project | Focus | Stack | Highlights | Links |
 | --- | --- | --- | --- | --- |
-| **DogBreed Vision** | Fine-grained canine breed recognition | YOLOv8, Python, Streamlit | 120 classes; **mAP50-95: 84.3%**; detection and classification oriented workflow; training metrics and inference-oriented UI | [Repository](https://github.com/sidnei-almeida/analise_canina_yolo) |
-| **Brazilian license plate recognition** | ALPR for Brazilian and Mercosul plates | YOLO, detection plus OCR-style pipeline, Python | Strong detection metrics (**Precision: 99.69%, Recall: 99.19%, mAP@50: 99.5%**); end-to-end plate reading for real scenes | [Repository](https://github.com/sidnei-almeida/brazilian-license-plate-recognition) |
-| **Facial emotion classifier** | Emotion recognition from faces | VGG16 transfer learning, OpenCV, Streamlit | Seven emotion classes; **72% accuracy**; Haar cascade face detection; hosted demo | [Repository](https://github.com/sidnei-almeida/vgg-emotion-classifier) · [Demo](https://facial-emotion-classifier.streamlit.app) |
-| **SECOM failure prediction** | Industrial anomaly detection | Neural autoencoder, Python | Semiconductor manufacturing failure setting; bottleneck representation learning; imbalanced anomaly detection framing | [Repository](https://github.com/sidnei-almeida/secom_failure_prediction) |
-| **Business growth potential analysis** | Predictive modeling on firms | Scikit-learn (e.g. Random Forest), Python, dashboards | Financial and macroeconomic features; growth potential classification; model comparison; interactive analysis | [Repository](https://github.com/sidnei-almeida/potencial_empresarial) |
-| **Universal Data Translator** | Tabular data ingestion and conversion | Python, CSV, Excel, SQLite | Batch-oriented processing; desktop-style interface; multi-format IO | [Repository](https://github.com/sidnei-almeida/tradutor_dados) |
-| **Legislative monitoring** *(in development)* | Public data monitoring | APIs, NLP classification, dashboards | Automated collection from public legislative APIs; thematic and bias-oriented text classification; exploratory dashboard | *In active development* |
+| **DogBreed Vision** | Fine-grained canine breed recognition | YOLOv8, OpenCV, Python, Streamlit | 120 classes; **mAP50-95: 84.3%**; detection and classification workflow; inference-oriented UI | [Repository](https://github.com/sidnei-almeida/analise_canina_yolo) |
+| **Brazilian license plate recognition** | ALPR (Brazil / Mercosul) | YOLO, OpenCV, OCR-style pipeline, Python | **Precision: 99.69%, Recall: 99.19%, mAP@50: 99.5%**; real-scene plate reading | [Repository](https://github.com/sidnei-almeida/brazilian-license-plate-recognition) |
+| **Facial emotion classifier** | Emotion recognition | VGG16 transfer learning, OpenCV, Streamlit | 7 classes; **72% accuracy**; face detection; hosted demo | [Repository](https://github.com/sidnei-almeida/vgg-emotion-classifier) · [Demo](https://facial-emotion-classifier.streamlit.app) |
+| **SECOM failure prediction** | Industrial anomaly detection | TensorFlow, Keras, autoencoder, Python | Semiconductor manufacturing context; representation bottleneck; imbalanced anomaly framing | [Repository](https://github.com/sidnei-almeida/secom_failure_prediction) |
+| **Business growth potential analysis** | Predictive modeling | scikit-learn (e.g. Random Forest), Python, dashboards | Financial and macro features; growth classification; model comparison; interactive analysis | [Repository](https://github.com/sidnei-almeida/potencial_empresarial) |
+| **Universal Data Translator** | Data product / ETL | Python, CSV, Excel, SQLite, desktop UI | Batch processing; structured multi-format IO; desktop-oriented workflow | [Repository](https://github.com/sidnei-almeida/tradutor_dados) |
+| **Legislative monitoring** *(in development)* | Public data + NLP | APIs, classification, dashboards | Automated collection from legislative APIs; thematic and bias-oriented text classification | *In active development* |
 
 ---
 
-## Engineering Approach
+## Engineering approach
 
-1. **Problem framing**  
-   Define the decision or system behavior, constraints (latency, data drift, labels) and acceptable failure modes.
+1. **Frame the system**  
+   Define outcomes, constraints (latency, drift, labeling cost) and how the model or RAG flow plugs into real usage.
 
-2. **Data collection and validation**  
-   Confirm schemas, leakage risks and label quality before modeling.
+2. **Land the data**  
+   Validate schemas, leakage and label quality; automate ingestion where repeatability matters.
 
-3. **Preprocessing and feature engineering**  
-   Build stable transformations that survive train and inference.
+3. **Preprocess and feature**  
+   Build transformations that match both training and inference or API payloads.
 
-4. **Model training and evaluation**  
-   Compare baselines and candidates with metrics that match the business or operational goal.
+4. **Train and evaluate**  
+   Baselines first; promote candidates using metrics and slices that reflect deployment risk.
 
-5. **Integration**  
-   Expose predictions via APIs, small apps or batch jobs with simple, testable contracts.
+5. **Integrate**  
+   Ship behind **FastAPI**, **Streamlit** or lightweight web demos; keep contracts small and testable.
 
-6. **Deployment and iteration**  
-   Prefer small, observable releases: monitor errors, refresh data and re-run experiments as needed.
+6. **Deploy and iterate**  
+   Use **HF Spaces**, **Pages**, **Vercel**, **Firebase**, **Supabase** or **GCP/AWS** as fits; observe failures and refresh data and models on a cadence.
 
 ---
 
@@ -108,7 +111,7 @@ Git, GitHub, Jupyter, LaTeX for technical writing and reporting
 
 ## Contact
 
-Open to roles and collaborations in **AI engineering, machine learning, data science** and **data-driven software**, especially where models meet pipelines, APIs and measurable outcomes.
+Open to **AI engineering** and **machine learning engineering** roles and collaborations where **models, data pipelines, APIs and deployment** are part of the same problem, not an afterthought.
 
 <p align="left">
   <a href="https://sidnei-almeida.github.io/"><img src="https://img.shields.io/badge/Portfolio-2d333b?style=flat&labelColor=2d333b&logo=github&logoColor=c9d1d9" alt="Portfolio" /></a>
