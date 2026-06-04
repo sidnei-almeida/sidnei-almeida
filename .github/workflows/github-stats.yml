@@ -1,0 +1,36 @@
+name: Update GitHub stats card
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/github-stats.yml
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats SVG
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: >-
+            username=sidnei-almeida&show_icons=true&hide_border=true&bg_color=0d1117&title_color=79c0ff&icon_color=388bfd&text_color=c9d1d9&border_radius=10&hide_title=false&include_all_commits=false&count_private=false
+          path: assets/readme/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit updated card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/readme/github-stats.svg
+          git diff --staged --quiet || git commit -m "Update GitHub stats card"
+          git push
