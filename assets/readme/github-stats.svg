@@ -1,169 +1,232 @@
-<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <style>
-        .leftdiv {
-            animation: fadeH 0.7s ease-in-out forwards;
+
+      <svg
+        width="467"
+        height="195"
+        viewBox="0 0 467 195"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-labelledby="descId"
+      >
+        <title id="titleId">Sidnei Alves de Almeida's GitHub Stats, Rank: B</title>
+        <desc id="descId">Total Stars Earned: 5, Total Commits  (last year) : 946, Total PRs: 54, Total Issues: 0, Contributed to (last year): 1</desc>
+        <style>
+          .header {
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #79c0ff;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+          }
+          @supports(-moz-appearance: auto) {
+            /* Selector detects Firefox */
+            .header { font-size: 15.5px; }
+          }
+          
+    .stat {
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #c9d1d9;
+    }
+    @supports(-moz-appearance: auto) {
+      /* Selector detects Firefox */
+      .stat { font-size:12px; }
+    }
+    .stagger {
+      opacity: 0;
+      animation: fadeInAnimation 0.3s ease-in-out forwards;
+    }
+    .rank-text {
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #c9d1d9;
+      animation: scaleInAnimation 0.3s ease-in-out forwards;
+    }
+    .rank-percentile-header {
+      font-size: 14px;
+    }
+    .rank-percentile-text {
+      font-size: 16px;
+    }
+    
+    .not_bold { font-weight: 400 }
+    .bold { font-weight: 700 }
+    .icon {
+      fill: #388bfd;
+      display: block;
+    }
+
+    .rank-circle-rim {
+      stroke: #79c0ff;
+      fill: none;
+      stroke-width: 6;
+      opacity: 0.2;
+    }
+    .rank-circle {
+      stroke: #79c0ff;
+      stroke-dasharray: 250;
+      fill: none;
+      stroke-width: 6;
+      stroke-linecap: round;
+      opacity: 0.8;
+      transform-origin: -10px 8px;
+      transform: rotate(-90deg);
+      animation: rankAnimation 1s forwards ease-in-out;
+    }
+    
+    @keyframes rankAnimation {
+      from {
+        stroke-dashoffset: 251.32741228718345;
+      }
+      to {
+        stroke-dashoffset: 154.68833367961827;
+      }
+    }
+  
+  
+
+          
+      /* Animations */
+      @keyframes scaleInAnimation {
+        from {
+          transform: translate(-5px, 5px) scale(0);
         }
-
-        .text {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            fill: #000;
-            font-size: 14px;
+        to {
+          transform: translate(-5px, 5px) scale(1);
         }
-
-        .singleitem {
-            opacity: 0;
-            animation: fade 0.3s ease-in-out forwards;
+      }
+      @keyframes fadeInAnimation {
+        from {
+          opacity: 0;
         }
-
-        .followers {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            fill: #000;
-            font-size: 12px;
+        to {
+          opacity: 1;
         }
+      }
+    
+          
+        </style>
 
-        .namepl {
-            font-family: Arial, Helvetica, sans-serif;
-            fill: #000;
-            font-size: 17px;
-            font-weight: 600;
-            alignment-baseline: middle;
-            text-anchor: middle;
-        }
+        
 
-        .icon {
-            fill: #FF0000;
-            display: block;
-        }
+        <rect
+          data-testid="card-bg"
+          x="0.5"
+          y="0.5"
+          rx="10"
+          height="99%"
+          stroke="#e4e2e2"
+          width="466"
+          fill="#0d1117"
+          stroke-opacity="0"
+        />
 
-
-        @keyframes fade {
-            from {
-                opacity: .5;
-            }
-
-            to {
-                opacity: 1;
-            }
-        }
-
-        @keyframes fadeH {
-            from {
-                opacity: 0;
-                transform: translate(-90px, 10px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translate(10px, 10px);
-            }
-        }
-    </style>
-    <rect x="0.5" y="0.5" rx="4.5" height="99%" width="494" fill="#fff" stroke="#7e7979" stroke-opacity="1" />
-
-    <g transform="translate(0, 25)">
-
-
-        <g class="leftdiv">
-
-        <defs>
-        <pattern id="image" x="0%" y="0%" height="100%" width="100%" viewBox="0 0 512 512">
-            <image x="0%" y="0%" width="512" height="512"
-                xlink:href="data:image/png;base64,/9j/2wCEAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDIBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIAMgAyAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/APaz94/SvI7D/kCRD01Bv/R1euH7xrySxH/EmX21Fv8A0bT6EPc6XSB+8f8A3jW8Vyv+fSsPSB+8f/eNb+OKSGxyD5RXnOpD/iZXX/XZ/wCZr0hB8tecan/yE7v/AK7P/M0pDiUjSUUmakoMZpMU4UhpiGkVHLIyuRUN7qdnYAG5nWMnovUn8BzWS3ivSnlIMzgE9TGcUWA3opuRzitOFQ6gk1gW1zDdRCS3lWRD3U1qWt5GrCJmw3vQBprEpqQQr6U2NgR1qdRmmISO3RmwSF9yKQW7byPkA9anC07ZQBXMW0kcHHcU3y6t+XSGOgCmY6aY8CrhjppiyKBlIpTCFHcVFfWU65eORivpmsOdJhyJHyPepuNI6DYD0pPLrI0+/ZG2SH860/t0fqKdwsetH71eTWI/4k301Fv/AEaK9ZPX8K8osx/xJ39tSb/0YtX0M3udLpA/eyf7xre7f59KwtI/1sn+8a3u1JDJE+7Xm2q/8hS7/wCuz/8AoRr0pPuivNtW/wCQpd/9dn/maUhxM8nmkFIx5oBqSh9Zes6i1jAqQDdcSnCADOPetTtWh4a02J9WudQnQOwURxZH3QMEke+SaG7Ald2POz4Q1m+H2mdCpbnMrYJrLn8KajG7AqqgHqWr3fUtphPy9K4+/haRHK4xWLrSTsdUKEJLU8uhh1HRrgTwMflPzBeQR7ivQbBoNWs0u4s4cd+qn0rnLqNo5G3DirHhu8lshcQxrujJD49+h/pWsZcy1MalNReh08cl1Zt8rF09DWtZarDNhX+R/Q1mQahbz4DfI3oane1ilGRg+4qjI6OMqwGCDU6rXKxPdWbZRyy/3TWvaaxG5Cy/I3vRcRrbPakMftTo5VcAggipQAaYisY6b5dWyoprR5FAyoY89qzr3S0mUsgw1bPl4FNKigDhrqxaNjxhhVbyJfU13NzaR3CEMBn1ql/ZCVDRVz0tuteU2n/IHn9tSf8A9DWvVm615Xar/wASm79tSlP/AI8la9DN7nR6R/rZP941vDoP89qwtJ/10v8Av1vAcUASp92vNtW/5Cd3/wBdn/ma9JX7orzbV/8AkJ3f/XZ/5mokXEy2PNIDSP1oBpDZKKktNYvYNRTTrdYo4ypd5XjLH14+Yc8j9fSolOCDXXQWaX1qm0o08eG3sMhjt6H6hv8AOKmT6FwV7s4DV/FGopeNbf2qGQ8hUgU4GccnH9a57VNQ1yNI2upWS2k3qjxLtLlSR746fpXe6rpccWqxpNBbxu7YVw5cL77do6VjeMbrTZrO0tovM8pECAlCCMcbueffNQmr7G/I7aM4ZZ0kwjJMxPBZ2LZrY0C6ewElvPGr20kmVYD5lOdv5Yx+VLaaeZLXf5vA7bADUtvA019bW0Q5kkVMfU4qnPoifZdZHSy2Ct0XmoFiubY5idsehrr7jw5qNuNxg8xfVDmsyW3aNtsiFG9GGKeqOe6KEOpkfLcR496tAW9yoKsppFsvPlWMLkscAVFeaW9rMUGUYc07iJ0NzaNmJyV9DWpa60pwswKN71gJcXMHDDetWFubeYYf5W96Ex2OsjuEkAKsCPrUm8HvXIgyw/NBJkematW2qysMOnNVcmx0ZYUxiKy1vXP8JplzfPDA0m3O0ZouBplhSbhXFyeMrcMUZtje9M/4S+2/57ii4Htzda8tthjSr8HtqM3/ALJXqTda8dvi66ewRmX/AInrg4OMjC8fSr6Evc7LSv8AXy/71b/8I/z2rA0r/Xyf71b46D/PahASJ90V5vrH/ITu/wDrs/8AM16Sn3a811o41O7/AOuz/wAzUyLiZDnmkU0x2+alQ1I2TrXYaFcQmzjRHBmCneB164H6Yrj1NX9Nne3vY3Q8sdp9wamSuiouzNa9ZYdWE7QvPM6lY1UDgdzk8CuN8Tm7lllaSO3HQFQ2Sa7sSxTTEsdrYxg9a5XxHBZK5WFMyYyW9TWKOyLRxdjLKrNuBUY6E5rovCelx6rr6RyStH5S+cCvUkMvH61zzI6uWYYFNttYudKvBe20zROnG5QCQCeeDwa1itbmU2+WyPpscqKr3FjbXK7ZYkYe4rivC/xEguZ5tL1+SC0v4MbZs7IplPIPP3Tgg4ruUmjmiWSKRJEYZDIwYH8RWxxnN3uiW9ndQXFvlCr5IzxUGq6Bd30/2qHyyCoG0nFa2ssQkf1rRtDm1T6UOKDqeaXWnT27lJYWB/MVmzWysDxXqkkaPcfMoNZWuaVaCzknEYDgZyKhw7D5jzS2SdJyoc7c9DW3bwnAOKtW+j7x5qng81dWzKdqLBcqpHgdKg1JcWEv0rT8rFUdVTGnS/SmM8Y1of8AEwas/bWlrX/ISaqGK0WxLPr9uteWrDHJYamHUNs1Odlz2ICYNepHrXly4Fjq+eP+JnMPzEdIT3R0Glf8fEv+9W+BwP8APasHSv8AXy/71bw+6KAJF+6K8z1tv+Jpef8AXZ/5mvTF+6K8u158areD/ps/8zSkVEx3b5qdG2arNJ81OE6xLudsD+dSUaCGtDTIvOS7vNpeGyi83A6O/wDCv04J/Aetc6Zxcpu3HywcFB1z6Gu20GWIeHnsMZu3QXUoxwFclVH/AHyvT3quXS5N7shvNt1ElxA3yyKGU+xFclfrcRzNvz+ZrV0C4kt7Q6ZdBhLbMY13dSo6H8qsahDFKM87q4uZp2Z6KimjiLgPISAMVFBphvLq2tSD++lVT9M8/pXSNp6odxTJ961/DOgSXWuRXm39xbZLE9yQQB+ua1hK7SM6kVGLZxfj+zay8QQyAYWaBfzXj+WKqeH/ABhq3hh3ewutsL8vE6hkb8D0P0xXU/FcwS/Zyi/vLaUR59dykkfhtH515xEqy4DgHnPNdiWhwHqUXxba+jRdR0wL6vbv/wCyn/GvQ9C8aaBqlvGkOoxRS4A8qc7Gz6DPB/CvnHaEuBEBxtz+NSAlR1ocQPqAsPPyDmquun/iVS/SvAtI8Y6zojqLa+kMK/8ALGQ7kI+h6fhXs/8Ablp4h8KLqFow2uMOmeY27qalqwEulIDZrn0qxJAPSmaSP9DT6VfZcikBkvDWTrabdMlPtXRSR1ieIV26RMfak0M8M1g51J6o1qjTptX1iaKA8rzV7/hC9Q/vD8qaegz6bbrXl+P9C1r21WX/ANp16geteYH/AI9Nd/7Csv8AKOhEvc6DS/8AXy/71bo+7WFpX+vl/wB6t7+GgB6fdryXxNLs1a9P/TZ/5mvWl+5XjHipjN4pltFP+suXzj0BOaRSMpXeXJUfL/epJlMUHmtksTtHPTjtV68VLaN1jAVYlzisk3JuLuS36rAqA/7xBJrRRSIvctWnyWnKgDrgV3vgKxfUNOk1CdyZZJhEpHGEjUKBXDyKEsmbpgV6l4Ag+z+FLBSMFkaQ/wDAmJ/lTewIoa1osgP2xYgs0TYO3+NfT/CoI7eGdVcDPFdzIquZEYAjrg1xWoQHStW8ggi3ny8JB491/CuOtBfEddGo/hYx7KKaVIwgMjHCqBW5fRjRtCSK0bYTIFLDqSckn9KsadYJAgmZQJCuR61R1eZr67isIRlYzlz/ALX/ANb+tXRp8quzOrU5nboea+ObBpdMScZO2Zck+pVjXE2MJJJr2Txpp6x+FbzA5SZCP++cf1ryfT0BDj39K6VsYspTHy75iewQH8RUsqbblU7OuRUVwBJqksWfvxLg+4GRTJpy1vby/wAcZKN+FMkimYrle+a1fD3iK60K5by2LW02Fnh7MAev1HY1j3TA3GR0IzTM0hn0xo0kc+nQTRMGjkQMrDuDWmeleUfCnxKS76DcvnOXts9u7L/X869Y7VD0GQOtc/4q+XQrgj+7XRsM1geKx/xIZ/pSewzx7wrdRQa1cyTNtB6Gu3/tax/57ivKboEX0gU4GaZ8/wDeNFrgfXTda8xYYttf/wCwpL/6DHXpx615lJxb+If+wnL/AOgx0IT3N7S/9fL/AL1b38NYOl/8fEv+9W9/DQA9fu141q6/8Vxq0+Mi33Y+pY/4V7Kn3RXkWonHiLX3AyftWPrgZ/rTW4Mxr6VZprtCQVBjY/7vU/pWdo8DSW8924OZpc59etJdFoXuAuSJLchT9DtH6Vr2kaxabDEMYQAH3ODmtCSO+yunFRgFiFFe06PALawgiAwEgRcf8Brxu6iM02nwAcy3Ma/rXt8QAU9s1LKQ2Y7GjfsflNVtT01NV0/7O2A4YPG/90g/4ZH41Zkw8bKahmu1tLPeSPM+6g9TUtX0GnZ3KeqXzJL9kteZm4Yj+Ef40/T7BLWPp8x6mmafZlXaaTl3OSTWiflFMRznjOPf4W1EY/iVv1FeJaVhjID2Ne8eIY/O0K/j7mBj+QJr5/s5vIvJEPriqWwmVdSEi6urRI7lUQnapOOKhugiCfdwSQyKPXvmrNzcmLUVcdHTB/Amqd2dxY5zkUCK+8sVz2GKf2qurfMPpVgdKALNheS6dfwXkDbZYZBIp9wc19MaTqUGsaVbX9ucxzxhgP7p7j6g5H4V8v16j8JPEIinn0Od8LKTLb5P8QHzL+IGfwPrSaKPWjXP+LuNAnNdB1rnfGRP/CPzBRliQAPWoewzwG5Ob6U/7VFWv7Pd75xIGVs9CKs/2QfU0cyKtc+oz1rzKb/UeIh/1Epf/QI69NbrXmU/+r8Se2oy/wDoEdBEje0r/j4l/wB6t7+GsHS/+PiX/ere/hH1oAev3a8e1LeniDXd3CtdlgfbGP5j9a9hX7leO6rcq2vaomAcXMqfXnJH5GqiJmBOFT7S3QohZV9Mlc/yFXrA506BjzySfyNZVw2XuF6/ujg+2VrS0Q+bphHdTj9QKsRowDfr2jIe9yD+VexFtq14ukwi8UaMD2mFewNJuHBqWNA8wB9arvCbi6iLgbFGce9P2jOTU0e1VDehoGWAApxTHPBpC7OcgdajkfAxSArXSiSGSNujqVP4ivm/UEa01WVSMEOQa+jJn5wa8M8cWP2bxBd7R1kL8eh5/rVIRzN6+Wib6j+tMc7o/wAKjuGJiB9DRG2VoEVgcEVaU8VUbg49CasxHigRL2q3pd/NpWqW19AcSQSBx74PT8aqj1oPC5oKPqK1vYLyxgvIGzFPGsiH2IzXJ+M7m5hhQr80JcEjFUvhlqA1HwsLV5WEtnMVA/2T8w/XcPwrU8YXiQ2McTYZy4Nc1f4GUjh7kwTyB0QCZyDyKb9nl/2Ky9UvdtwjxAg5qr/as/qa46cZKOhVz6bavMp+nicf9RCT/wBASvTWrzG44bxSPS+c/wDjiV6JDN7Sv+PiX/erf/hFc/pR/wBJl/3q38/KPrQBIv3BXiXiAGLX9WKctFcNMcd8s2R+WPyr2xT8grw+9ufN17UpiMiR2BGfeqiJmOCJJ5tpyGibH5itDw2T9kmHowP61j2wMOrGEAlWR9uR2wT/AErY8OHbb3mezj+dWIgurk/8JPp+Oqyr/OvabGQywA+1eByTY8Q27n+GVT+te4eHpvNslJpMEa2CMUr58ngfNninkZFKMEkdhUlAzEKo6cVA4xjNWJeAPpVeRhgUIChdv5d0pPQnFeXfEG2KawzkfJIMj3r0rVWwFb0auR8Z2y3mjC4I/eQ8/getUJnkVxAV3L69KpRt2rbnQSRg9xxWNOvlzn0bmmSRujPIQiljjdgDsBk0+FuK6XwBBFc+N9OjmQPFKJYnU9CrRsCP1rO8S6Qnh/xNfaVHK0kdu4CswwSCoYZ/OkBVX5uKVlyck4UetMjYkYzt+gyaeVQDOxifVhmgZ3vwn1IW/iSWxY/Ldwtt/wB5eR+m6u/13w0kpkv/ADnZ1H3WORj2rxnwnfDTvFem3THCrOoY+ik4P6E19D3txAlrJ5pG0isK0VJWZcTxrWtMcXSbTzJgIo9apf2Hf/8APGu9+wDVbtZ7XBEMgOa1P7Ou/RayhG0bFtI7WbWNPiyDdxsR/DHlz+QzXA3aMqeIpyCI7mczREjBK7AM47cg1eWVsDC4+pqK6t/tkMkUkjKjrtOzg4roMy/pR/0mX/eroM/KPrXL6XLi4fn+LFdIr5VfrQgHzyeVYzSg/cjZvyFfP2oTG31a7VlbludvP417prEvlaDdP/0zx+fH9a8G8TKn2sThmRiMEgVcRMpWs6trEBVycsRg+4I/rW5pb+RYaix4wy4/OuRt5ymo2zmQOBKpz+NdQ5Meh6mScEuuPzqhGDJLuv1kPUOD+te4eDpTLpcbV4R1dSa9q8BS79Ij5pMOh2zHEeaSPv8ASkkP7ukh9yeRUlCzbmAPQdKrSDaKtNGAoOTwaqzGmgM3VBmCudvx5+mzRNyCpBrodTOLfOa52RiVYeoouCPK3Vo5pYmGSpI61k3yfIHHVTg/jXT6/bfZdULgYEgz+PeufuFDbh2NUSM0DU20rXbC+BwILhHb/dyMj8s16/8AFXw/Zahpr6naR2qX0JDSzM20vGBjGehPTGfTFeHcocHqK72/1i5n8Di4ubje1yqQRg89D8xP/fJqXoBx8C/IMgVJJgDv+dJFwoolPFUNEaMVcEEg54r1+41LVLmDypYt+fSvJbIRm8h83/VBwX+mea9SfxbEHRfJWPIypI61hVipbmtObjsQRX2r6axWC1kRWPOMc1N/wkOvf88ZPyFU7rxFJIrESfTHaqH9vXH/AD2b8qy5Iot1u56DmQ/xAf7op4C45yfqc1Zt9KvpwNttJg92G3+dU9aS50e90y2kjjf7dKY8hz8mFJ9OeldBgS2eA7FQAN3aughk+VawtPTKn61rxgjbSQ2QeJpdnhe6Psv/AKEK8V1iTzUOWAx2wTXrvi+XZ4Xcf3pFH8z/AErxu+YkH/GriSznJztcNlcg56YrsLtg2g3TDo7Fh/47XH3QLPtAyxOAPWunl8xfD0KSqUl8g7lYYIIOP6VQjCB5HtXr3w3l8zSl56GvIAcmvVvho3/EtH1oGelNzikU/vQPSlBBUZpiEb8571IyeVv3J9qoSEk+1XGCkMCrHHSq0+AMcZoQGXqw/wBFGPXmufC5FdFejfbsp61iiIryRxQCOQ8ZWe6zjuFH+rbnHof8iuDnGBXrmp26XFpJC4+V1IryW6VkeWBseZExB9x600JoyLj/AFpPrT7eWVo/JMjmINuCZOAfXFJcdPcGn2iHG7B5oAuqMCopamzx1qBzlqAJ7WM+W8vHykcHvV+e8ku50lkPzH07AVDFGqwBehFNZdueeoxXM5XkOxr20yJaCRhnLZ59B0p39op/zyX8qyUaSUhAQFQdT0FP8s/89U/OqDTqfVx6iuK8bAHXvDAPe6cf+OGu1PUVxfjUf8Tzwt/1+t/6DVocthukpuZuO9a5jwPxrN0Zfnetl1+U0Act41B/4RnjtMv8jXjt4eDyB+Fe3eLYPN8L3QA5Xa36/wD168Vukb5uHP0q4ks5q6JWQMDyDkcYrqb6fz7JXHAa234+ozXM36Fckqw+tdBjdYgf3bUL/wCOiqEYmcAn05r1D4aXkE9r5SOoZc/L0NeXDaSQ33Twa9D8EWNvYyrcKp356igD1oEEACpVHGBwKrWs6ugJHWrXmZHykCpGSO4AOay/NEtwx/hAxU8spDOh61RiBUYAwfU0JALcqCDyaoTKiW0jkYHABNaewOPmbNZusI8gihiQk8ngcUwMC6mLAhBmuB8R6Y8F4l5sVQ+VYKPbrXp66VMR820fWqOsaLD9hkmuYzIiAnCjPOOtIZ4fMjPL5aDLHoKvQxeTAqtgHHINLZWjHUpSwOIQQeCMnt/Wrk+CMYFUSUHb3zU2lx28+pwLdSBLfd87egqtKF3cKM09ogkakOpLDJA6ipk7IZ1Wu6HFA9u+nSB4peCN2cGubkYs20cnOB7mnxX1xJGtt5pAH3TnpSTyLBCsSIrAvv8ANx830+lYOIXJYrK6zIGQgJ9760vkP/cNVptSmdfLjcqgHPPU1V8+X/no350+VAfYR6iuO8aj/ic+Fz/0/H/0GuxNch40/wCQv4Y/6/8A+lWipbDtGH7yT8P5VtOPlrH0b/WSfUfyraf7tAilqNuLjSruEj70TD8cV4RqMOC+ckivf5v+PWb/AHG/lXg+qdZPrVRBnH6gmB2H41v27b7NxjBMJGPwNYWo9fxrctv9XL/uv/I1ZJiRLuuNvqa9S8LRKtpEuDxxXl9v/wAfY+tep+Gf9THS6j6HoFlBmMdcVe8uJBlufaobH/UipJfvL9aTeoIHtRMyt9xfaoJdNAYssnXsa0E+4tNl7fWlcDNOnt/epDp+B80gA+taHaop/u07hYzXhtkP3mkPoOBUMoMqGJV2qeMCnn77U6L/AF6/71MLHk+saPIviPUUhmgEDHeJGJyzBQCgPTIP+etYNxpt19mMpjUHcV2k4JI64zjP4V12qf8AH5J/1+z/AMzWfqf/AB723/X1L/6GahSZTirnDbD5pDjGOuaYOueoNWbj/j4uPqf51WX7opSEyZ1S2xtk3HbnPp7UXEwuNm0bUUdKiuOn/Aaan3B9KgQqRAnh+vGT2qT7KP8AnvH+dRj7v40tNAf/2Q==">
-            </image>
-        </pattern>
-    </defs>
-    <circle cx="86" cy="44" r="40" stroke="#fff" stroke-width="3" fill="url(#image)" />
-        <text x="86" y="100" class="namepl">Sidnei Alves de Almeida</text>
-        <svg x="35" y="111.8" class="icon" viewBox="0 0 16 16" version="1.1" width="14" height="14">
-            <path fill-rule="evenodd"
-                d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z" />
-        </svg>
-
-        <text x="55" y="123" class="followers">Followers:</text>
-        <text x="114" y="124" style="font-weight: 700" class="followers">44</text>
-
-        </g>
-
-        <svg>
-            <g transform="translate(230, 0)">
-                <g class="singleitem" style="animation-delay: 210ms" transform="translate(25, 0)">
-
-                    <svg class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-                        <path fill-rule="evenodd"
-                            d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z" />
-                    </svg>
-
-                    <text class="text" x="25" y="12.5">Total Repo:</text>
-                    <text class="text" style="font-weight: 700" x="150" y="12.5">63</text>
-                </g>
-            </g>
-
-            <g transform="translate(230, 25)">
-                <g class="singleitem" style="animation-delay: 350ms" transform="translate(25, 0)">
-
-                    <svg class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-                        <path fill-rule="evenodd"
-                            d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z" />
-                    </svg>
-
-                    <text class="text" x="25" y="12.5">Star's Count:</text>
-                    <text class="text" style="font-weight: 700" x="150" y="12.5">5</text>
-                </g>
-            </g>
-
-            <g transform="translate(230, 50)">
-                <g class="singleitem" style="animation-delay: 460ms" transform="translate(25, 0)">
-
-                    <svg class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-                        <path fill-rule="evenodd"
-                            d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z" />
-                    </svg>
-
-                    <text class="text" x="25" y="12.5">Fork's Count:</text>
-                    <text class="text" style="font-weight: 700" x="150" y="12.5">1</text>
-                </g>
-            </g>
-
-            <g transform="translate(230, 75)">
-                <g class="singleitem" style="animation-delay: 560ms" transform="translate(25, 0)">
-
-                    <svg class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-                        <path fill-rule="evenodd"
-                            d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z" />
-                    </svg>
-
-                    <text class="text" x="25" y="12.5">Contributions:</text>
-                    <text class="text" style="font-weight: 700" x="150" y="12.5">944</text>
-                </g>
-            </g>
-
-
-            <g transform="translate(230, 100)">
-                <g class="singleitem" style="animation-delay: 660ms" transform="translate(25, 0)">
-
-                    <svg class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-                        <path fill-rule="evenodd"
-                            d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z" />
-                    </svg>
-
-                    <text class="text" x="25" y="12.5">Total Issues:</text>
-                    <text class="text" style="font-weight: 700" x="150" y="12.5">0</text>
-                </g>
-            </g>
-
-            <g transform="translate(230, 125)">
-                <g class="singleitem" style="animation-delay: 760ms" transform="translate(25, 0)">
-
-                    <svg class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-                        <path fill-rule="evenodd"
-                            d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z" />
-                    </svg>
-
-                    <text class="text" x="25" y="12.5">Closed Issues:</text>
-                    <text class="text" style="font-weight: 700" x="150" y="12.5">0</text>
-                </g>
-            </g>
-
-        </svg>
+        
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >Sidnei Alves de Almeida's GitHub Stats</text>
     </g>
-</svg>
+      </g>
+    
+
+        <g
+          data-testid="main-card-body"
+          transform="translate(0, 55)"
+        >
+          
+    <g data-testid="rank-circle"
+          transform="translate(390.5, 47.5)">
+        <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
+        <circle class="rank-circle" cx="-10" cy="8" r="40" />
+        <g class="rank-text">
+          
+        <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
+          B
+        </text>
+      
+        </g>
+      </g>
+    <svg x="0" y="0">
+      <g transform="translate(0, 0)">
+    <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Total Stars Earned:</text>
+      <text
+        class="stat  bold"
+        x="219.01"
+        y="12.5"
+        data-testid="stars"
+      >5</text>
+    </g>
+  </g><g transform="translate(0, 25)">
+    <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"/>
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Total Commits (last year):</text>
+      <text
+        class="stat  bold"
+        x="219.01"
+        y="12.5"
+        data-testid="commits"
+      >946</text>
+    </g>
+  </g><g transform="translate(0, 50)">
+    <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Total PRs:</text>
+      <text
+        class="stat  bold"
+        x="219.01"
+        y="12.5"
+        data-testid="prs"
+      >54</text>
+    </g>
+  </g><g transform="translate(0, 75)">
+    <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/>
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Total Issues:</text>
+      <text
+        class="stat  bold"
+        x="219.01"
+        y="12.5"
+        data-testid="issues"
+      >0</text>
+    </g>
+  </g><g transform="translate(0, 100)">
+    <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Contributed to (last year):</text>
+      <text
+        class="stat  bold"
+        x="219.01"
+        y="12.5"
+        data-testid="contribs"
+      >1</text>
+    </g>
+  </g>
+    </svg>
+  
+        </g>
+      </svg>
+    
