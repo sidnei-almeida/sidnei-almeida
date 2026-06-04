@@ -457,29 +457,69 @@ Preview thumbnails live **in this repo** under `assets/readme/projects/` (export
 
 <br/>
 
-## GitHub activity
+<!-- GITHUB ACTIVITY SECTION START -->
 
-<p align="center">
-  <img src="./assets/readme/github-stats.svg" alt="GitHub stats for sidnei-almeida" width="680"/>
-</p>
+## Engineering Activity
 
-<br/>
+<div align="center" style="max-width:880px;margin:0 auto;">
 
-<div align="center">
+<div style="border:1px solid #30363d;border-radius:14px;background:linear-gradient(165deg,rgba(56,139,253,0.1) 0%,#161b22 38%,#0d1117 100%);padding:26px 22px 22px;margin:0 0 18px;border-left:3px solid #388bfd;text-align:center;">
 
-### Open to work that connects modeling, data paths and deployment
+<p style="margin:0 0 8px;font-size:10px;letter-spacing:0.3em;text-transform:uppercase;color:#8b949e;">Engineering profile</p>
 
-AI engineering and machine learning engineering roles, plus collaborations where **APIs**, **dashboards** and **hosted surfaces** are first-class, not an appendix.
+<h3 style="margin:0 0 10px;font-size:1.4em;font-weight:600;color:#e6edf3;">Sidnei Alves de Almeida</h3>
 
-<br/>
+<p style="margin:0 0 14px;font-size:12px;line-height:1.55;color:#79c0ff;letter-spacing:0.03em;">AI Engineering · Machine Learning · Data Science · APIs · Dashboards · Deployment</p>
 
-<a href="https://sidnei-almeida.github.io/"><img src="https://img.shields.io/badge/Portfolio-0969da?style=flat-square&logo=github&logoColor=white" alt="Portfolio"/></a>
-<a href="https://www.linkedin.com/in/saaelmeida93/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://github.com/sidnei-almeida"><img src="https://img.shields.io/badge/GitHub-24292f?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="mailto:sidnei.almeida1806@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
-
-<br/>
-
-<sub><i>Caxias do Sul, Brazil · remote-friendly</i></sub>
+<p style="margin:0 auto;font-size:14px;line-height:1.65;color:#c9d1d9;max-width:640px;">Building practical AI systems that connect <strong style="color:#e6edf3;font-weight:600;">models</strong>, <strong style="color:#e6edf3;font-weight:600;">data pipelines</strong> and <strong style="color:#e6edf3;font-weight:600;">deployed products</strong>.</p>
 
 </div>
+
+<div style="border:1px solid #30363d;border-radius:14px;background:#161b22;padding:16px 12px 12px;margin:0 0 18px;">
+
+<p style="margin:0 0 14px;font-size:10px;letter-spacing:0.24em;text-transform:uppercase;color:#8b949e;">GitHub metrics</p>
+
+<table align="center" cellpadding="0" cellspacing="10">
+<tr>
+<td align="center" valign="top">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=sidnei-almeida&show_icons=true&hide_border=true&bg_color=0d1117&title_color=79c0ff&icon_color=388bfd&text_color=c9d1d9&border_color=30363d&border_radius=12&hide_title=false&include_all_commits=false&count_private=false&hide_rank=true" alt="GitHub stats for sidnei-almeida" height="195"/>
+</td>
+<td align="center" valign="top">
+<img src="https://streak-stats.demolab.com/?user=sidnei-almeida&theme=dark&background=0D1117&border=30363D&stroke=30363D&ring=388BFD&fire=79C0FF&currStreakLabel=79C0FF&sideNums=C9D1D9&currStreakNum=79C0FF&sideLabels=8B949E&dates=484F58&hide_border=true&border_radius=12" alt="GitHub contribution streak for sidnei-almeida" height="195"/>
+</td>
+</tr>
+</table>
+
+</div>
+
+<div style="border:1px solid #30363d;border-radius:12px;background:linear-gradient(90deg,rgba(56,139,253,0.07),transparent);padding:15px 20px;margin:0 0 16px;border-left:3px solid #58a6ff;text-align:center;">
+
+<p style="margin:0 0 8px;font-size:10px;letter-spacing:0.22em;text-transform:uppercase;color:#8b949e;">Professional signal</p>
+
+<p style="margin:0 auto;font-size:13px;line-height:1.65;color:#c9d1d9;max-width:620px;">End-to-end delivery: trained models, <strong style="color:#e6edf3;">FastAPI</strong> services, operational dashboards and hosted demos — not notebook-only experiments.</p>
+
+</div>
+
+<div style="border:1px solid #30363d;border-radius:12px;background:#0d1117;padding:13px 18px;margin:0 0 20px;text-align:center;">
+
+<p style="margin:0;font-size:13px;line-height:1.6;color:#c9d1d9;"><span style="color:#79c0ff;font-weight:600;">Open to</span> AI Engineering, Machine Learning Engineering and Data Science opportunities.</p>
+
+</div>
+
+<p style="margin:0 0 14px;line-height:2.1;">
+
+<a href="https://sidnei-almeida.github.io/"><img src="https://img.shields.io/badge/Portfolio-388bfd?style=flat-square&labelColor=161b22&logo=github&logoColor=79c0ff" alt="Portfolio"/></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/saaelmeida93/"><img src="https://img.shields.io/badge/LinkedIn-388bfd?style=flat-square&labelColor=161b22&logo=linkedin&logoColor=79c0ff" alt="LinkedIn"/></a>
+&nbsp;
+<a href="https://github.com/sidnei-almeida"><img src="https://img.shields.io/badge/GitHub-388bfd?style=flat-square&labelColor=161b22&logo=github&logoColor=79c0ff" alt="GitHub"/></a>
+&nbsp;
+<a href="mailto:sidnei.almeida1806@gmail.com"><img src="https://img.shields.io/badge/Email-388bfd?style=flat-square&labelColor=161b22&logo=gmail&logoColor=79c0ff" alt="Email"/></a>
+
+</p>
+
+<p style="margin:0;font-size:11px;color:#8b949e;letter-spacing:0.05em;"><i>Caxias do Sul, Brazil · Remote-friendly</i></p>
+
+</div>
+
+<!-- GITHUB ACTIVITY SECTION END -->
