@@ -460,7 +460,7 @@ Preview thumbnails live **in this repo** under `assets/readme/projects/` (export
 ## GitHub activity
 
 <p align="center">
-  <img src="./assets/readme/github-stats.svg" alt="GitHub stats for sidnei-almeida"/>
+  <img src="./assets/readme/github-stats.svg" alt="GitHub stats for sidnei-almeida" width="680"/>
 </p>
 
 <br/>
