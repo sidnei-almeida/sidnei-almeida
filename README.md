@@ -460,7 +460,7 @@ Preview thumbnails live **in this repo** under `assets/readme/projects/` (export
 ## GitHub activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sidnei-almeida&show_icons=true&hide_border=true&bg_color=0d1117&title_color=79c0ff&icon_color=388bfd&text_color=c9d1d9&border_radius=10&hide_title=false&include_all_commits=false&count_private=false" alt="GitHub stats for sidnei-almeida"/>
+  <img src="./assets/readme/github-stats.svg" alt="GitHub stats for sidnei-almeida"/>
 </p>
 
 <br/>
