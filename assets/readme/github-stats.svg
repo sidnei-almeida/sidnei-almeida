@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Sidnei Alves de Almeida's GitHub Stats, Rank: B</title>
-        <desc id="descId">Total Stars Earned: 6, Total Commits  (last year) : 1015, Total PRs: 54, Total Issues: 0, Contributed to (last year): 2</desc>
+        <desc id="descId">Total Stars Earned: 6, Total Commits  (last year) : 1041, Total PRs: 55, Total Issues: 0, Contributed to (last year): 2</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 152.53137829197036;
+        stroke-dashoffset: 152.01088293078035;
       }
     }
   
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >54</text>
+      >55</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
