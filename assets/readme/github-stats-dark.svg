@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="196" viewBox="0 0 820 196" role="img" aria-label="GitHub summary for sidnei-almeida">
+<defs>
+<linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#388bfd"/>
+<stop offset="35%" stop-color="#8957e5"/>
+<stop offset="68%" stop-color="#79c0ff"/>
+<stop offset="100%" stop-color="#3fb950"/>
+</linearGradient>
+<clipPath id="barclip"><rect x="28" y="150" width="764" height="9" rx="4.5"/></clipPath>
+</defs>
+<style>
+.t{font:600 15px 'Segoe UI',Ubuntu,Helvetica,Sans-Serif;fill:#79c0ff}
+.v{font:700 30px 'Segoe UI',Ubuntu,Helvetica,Sans-Serif;fill:#e6edf3}
+.l{font:400 11.5px 'Segoe UI',Ubuntu,Helvetica,Sans-Serif;fill:#8b949e}
+.g{font:400 11px 'Segoe UI',Ubuntu,Helvetica,Sans-Serif;fill:#8b949e}
+</style>
+<rect x="0.5" y="0.5" width="819" height="195" rx="12" fill="#0d1117" stroke="#30363d"/>
+<rect x="0" y="0" width="820" height="4" fill="url(#accent)"/>
+<rect x="0" y="0" width="12" height="4" fill="url(#accent)"/>
+<text x="28" y="42" class="t">GitHub at a glance</text>
+<rect x="28" y="58" width="176" height="70" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="46" y="94" class="v">73</text>
+<text x="46" y="114" class="l">public repos</text>
+<rect x="224" y="58" width="176" height="70" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="242" y="94" class="v">9</text>
+<text x="242" y="114" class="l">live demos</text>
+<rect x="420" y="58" width="176" height="70" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="438" y="94" class="v">57</text>
+<text x="438" y="114" class="l">followers</text>
+<rect x="616" y="58" width="176" height="70" rx="10" fill="#161b22" stroke="#30363d"/>
+<text x="634" y="94" class="v">15</text>
+<text x="634" y="114" class="l">months building</text>
+<rect x="28" y="150" width="764" height="9" rx="4.5" fill="#21262d"/>
+<g clip-path="url(#barclip)">
+<rect x="28.0" y="150" width="339.6" height="9" fill="#3572A5"/>
+<rect x="367.6" y="150" width="159.2" height="9" fill="#DA5B0B"/>
+<rect x="526.7" y="150" width="106.1" height="9" fill="#3178C6"/>
+<rect x="632.8" y="150" width="84.9" height="9" fill="#F1E05A"/>
+<rect x="717.7" y="150" width="42.4" height="9" fill="#E34C26"/>
+<rect x="760.2" y="150" width="10.6" height="9" fill="#3D6117"/>
+</g>
+<circle cx="32" cy="177" r="4" fill="#3572A5"/>
+<text x="42" y="181" class="g">Python</text>
+<circle cx="90" cy="177" r="4" fill="#DA5B0B"/>
+<text x="100" y="181" class="g">Jupyter Notebook</text>
+<circle cx="209" cy="177" r="4" fill="#3178C6"/>
+<text x="219" y="181" class="g">TypeScript</text>
+<circle cx="292" cy="177" r="4" fill="#F1E05A"/>
+<text x="302" y="181" class="g">JavaScript</text>
+<circle cx="375" cy="177" r="4" fill="#E34C26"/>
+<text x="385" y="181" class="g">HTML</text>
+<circle cx="421" cy="177" r="4" fill="#3D6117"/>
+<text x="431" y="181" class="g">TeX</text>
+</svg>

@@ -366,8 +366,14 @@ Structured research sessions instead of a generic chat box: Groq-backed agent wi
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=sidnei-almeida&show_icons=true&hide_border=true&bg_color=0D1117&title_color=79C0FF&text_color=C9D1D9&icon_color=388BFD&border_radius=10&include_all_commits=true&count_private=false&rank_icon=github" alt="GitHub stats"/>
-<img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=sidnei-almeida&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=79C0FF&text_color=C9D1D9&border_radius=10" alt="Most used languages"/>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/readme/github-stats-dark.svg"/>
+<img src="./assets/readme/github-stats-light.svg" width="88%" alt="GitHub summary: public repos, live demos, followers, months building, and language mix"/>
+</picture>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=sidnei-almeida&bg_color=0d1117&color=c9d1d9&title_color=79c0ff&line=388bfd&point=3fb950&area=true&area_color=1f6feb&hide_border=true&radius=10" width="88%" alt="Contribution activity over the last year"/>
 
 <br/><br/>
 
