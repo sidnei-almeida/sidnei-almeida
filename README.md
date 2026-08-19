@@ -143,7 +143,10 @@ write-ups on **[sidnei-almeida.github.io/projects](https://sidnei-almeida.github
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sidnei-almeida&bg_color=0d1117&color=c9d1d9&title_color=79c0ff&line=388bfd&point=3fb950&area=true&area_color=1f6feb&hide_border=true&radius=10" width="88%" alt="Contribution activity over the last year"/>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./assets/readme/contrib-graph-dark.svg"/>
+<img src="./assets/readme/contrib-graph-light.svg" width="88%" alt="Contribution calendar over the last year"/>
+</picture>
 
 <br/><br/>
 
