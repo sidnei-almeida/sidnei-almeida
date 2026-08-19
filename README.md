@@ -1,14 +1,12 @@
 <div align="center">
 
-<img alt="" width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=40&section=header&text=&fontSize=1&animation=no"/>
-
-<img src="./assets/readme/accent-bar.svg" width="88%" alt="Accent"/>
+<img src="./assets/readme/accent-bar.svg" width="88%" alt=""/>
 
 # Sidnei Almeida
 
-**AI Engineer focused on Machine Learning, Computer Vision and Data Systems**
+**AI Engineer** · Machine Learning · Computer Vision · Data Systems
 
-<img src="./assets/readme/wave-soft.svg" width="80%" alt=""/>
+<img src="./assets/readme/wave-soft.svg" width="78%" alt=""/>
 
 <img src="https://readme-typing-svg.herokuapp.com/?font=Inter&weight=500&size=15&duration=5200&pause=3400&color=79C0FF&center=true&vCenter=true&width=820&height=28&lines=From+datasets+and+trained+models+to+APIs%2C+dashboards+and+deployed+demos.;Computer+vision%2C+tabular+ML%2C+ETL+data+products+and+RAG-style+LLM+automation." alt="Summary typing animation"/>
 
@@ -20,30 +18,15 @@
 <img src="https://img.shields.io/badge/Machine%20Learning-0969da?style=flat-square&logoColor=white" alt="Machine Learning"/>
 <img src="https://img.shields.io/badge/Deep%20Learning-8250df?style=flat-square&logoColor=white" alt="Deep Learning"/>
 <img src="https://img.shields.io/badge/Computer%20Vision-bc4c00?style=flat-square&logoColor=white" alt="Computer Vision"/>
-<img src="https://img.shields.io/badge/Data%20Science-bf3989?style=flat-square&logoColor=white" alt="Data Science"/>
 <img src="https://img.shields.io/badge/Data%20Engineering-056763?style=flat-square&logoColor=white" alt="Data Engineering"/>
-<img src="https://img.shields.io/badge/APIs-1f6feb?style=flat-square&logoColor=white" alt="APIs"/>
-<img src="https://img.shields.io/badge/Dashboards-8957e5?style=flat-square&logoColor=white" alt="Dashboards"/>
+<img src="https://img.shields.io/badge/APIs%20%26%20Apps-1f6feb?style=flat-square&logoColor=white" alt="APIs and Apps"/>
 <img src="https://img.shields.io/badge/Deployment-238636?style=flat-square&logoColor=white" alt="Deployment"/>
-<img src="https://img.shields.io/badge/AI%20Automation-bf8700?style=flat-square&logoColor=white" alt="AI Automation"/>
 <img src="https://img.shields.io/badge/RAG%20%2F%20LLM-a371f7?style=flat-square&logoColor=white" alt="RAG / LLM"/>
 </p>
 
-<br/>
+<img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,fastapi,docker,git,github&theme=dark&perline=8&gap=16" alt="Languages and core ML stack"/>
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,fastapi,sklearn,docker,git&theme=dark&perline=7&gap=16" alt="Languages and core ML stack"/>
-</p>
-<p align="center">
-<img src="https://skillicons.dev/icons?i=github,aws,gcp,vercel,firebase,vscode&theme=dark&perline=6&gap=16" alt="Platforms and tooling"/>
-<img src="https://cdn.simpleicons.org/ultralytics/FFFFFF" alt="Ultralytics" width="40" height="40" style="margin-left:14px;padding:6px;background:#242938;border-radius:14px;vertical-align:middle;" title="Ultralytics (YOLOv8)"/>
-</p>
-
-<p align="center">
-<img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" title="Pandas"/>
-&nbsp;&nbsp;
-<img height="48" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" title="NumPy"/>
-</p>
+<img src="https://skillicons.dev/icons?i=react,nextjs,js,postgres,aws,gcp,vercel,firebase&theme=dark&perline=8&gap=16" alt="Product, data and cloud tooling"/>
 
 <br/><br/>
 
@@ -54,7 +37,7 @@
 
 <br/>
 
-<hr style="border:0;background:linear-gradient(90deg,transparent,rgba(56,139,253,0.45),rgba(137,87,229,0.35),rgba(63,185,80,0.45),transparent);height:2px;margin:10px auto 0 auto;max-width:760px;"/>
+<img src="./assets/readme/accent-bar.svg" width="88%" alt=""/>
 
 </div>
 
@@ -62,11 +45,11 @@
 
 ## About
 
-I work where **models meet systems**: datasets you can trust, training and evaluation you can defend, and surfaces people actually use (**FastAPI**, **Streamlit**, web-style UI when needed, hosted demos).
+I work where **models meet systems**: datasets you can trust, training and evaluation you can defend, and surfaces people actually use (**FastAPI**, **React / Next.js**, **Streamlit**, hosted demos).
 
 That usually means **computer vision** (detection, classification, **ALPR-style** stacks, paths toward **real-time inference**), **tabular ML**, **ETL and analytical products**, plus **RAG and LLM integrations** when answers need grounded documents or orchestration across APIs (**Groq**, **Gemini**, **Ollama**, and similar).
 
-Background blends management and quantitative study; what matters here is **build quality**, reproducibility and clarity under constraints, not generic slide decks.
+Background blends management and quantitative study; what matters here is **build quality**, reproducibility and clarity under constraints.
 
 <br/>
 
@@ -109,107 +92,70 @@ Grouped by **what I deliver**. Foundation across all pillars: **Python**, **SQL*
 
 <table>
 <tr>
-<td colspan="2">
+<td width="50%" valign="top">
 
-<div style="background:#161b22;border:1px solid #30363d;border-radius:10px;border-left:4px solid #0969da;padding:14px 16px;margin:6px 0;box-shadow:0 0 0 1px #0d1117 inset;">
+### 🧠 Machine Learning Engineering
 
-### Machine Learning Engineering
+Predictive systems on structured data: **scikit-learn**, **XGBoost**, classification, regression, clustering, feature engineering, cross-validation and disciplined model evaluation so comparisons stay grounded.
 
-Predictive systems on structured data: **scikit-learn**, **XGBoost**, **classification**, **regression**, **clustering**, **feature engineering**, **cross-validation**, disciplined **model evaluation** and **predictive modeling** so comparisons stay grounded.
-
-<p align="center">
 <img src="https://img.shields.io/badge/Python-21262d?style=flat-square&logo=python&logoColor=c9d1d9" alt="Python"/>
 <img src="https://img.shields.io/badge/scikit--learn-21262d?style=flat-square&logo=scikitlearn&logoColor=c9d1d9" alt="scikit-learn"/>
 <img src="https://img.shields.io/badge/XGBoost-21262d?style=flat-square&logo=xgboost&logoColor=c9d1d9" alt="XGBoost"/>
 <img src="https://img.shields.io/badge/Cross--validation-21262d?style=flat-square&logoColor=c9d1d9" alt="Cross-validation"/>
-<img src="https://img.shields.io/badge/Feature%20engineering-21262d?style=flat-square&logoColor=c9d1d9" alt="Feature engineering"/>
-</p>
-
-</div>
 
 </td>
-</tr>
-<tr>
-<td colspan="2">
+<td width="50%" valign="top">
 
-<div style="background:#161b22;border:1px solid #30363d;border-radius:10px;border-left:4px solid #8250df;padding:14px 16px;margin:6px 0;box-shadow:0 0 0 1px #0d1117 inset;">
+### 👁️ Deep Learning & Computer Vision
 
-### Deep Learning & Computer Vision
+**PyTorch**, **TensorFlow / Keras**, transfer learning, autoencoders, **LSTM** when sequences carry signal, **YOLOv8**, **OpenCV**, object detection, image classification, **ALPR** and real-time inference workflows.
 
-**TensorFlow / Keras**, **PyTorch**, **transfer learning**, **VGG16**, **autoencoders**, **LSTM** when sequences carry signal, **YOLOv8**, **OpenCV**, **object detection**, **image classification**, **ALPR / license plate recognition**, **real-time inference** workflows where hardware and latency allow.
-
-<p align="center">
 <img src="https://img.shields.io/badge/PyTorch-21262d?style=flat-square&logo=pytorch&logoColor=c9d1d9" alt="PyTorch"/>
 <img src="https://img.shields.io/badge/TensorFlow-21262d?style=flat-square&logo=tensorflow&logoColor=c9d1d9" alt="TensorFlow"/>
-<img src="https://img.shields.io/badge/Keras-21262d?style=flat-square&logo=keras&logoColor=c9d1d9" alt="Keras"/>
 <img src="https://img.shields.io/badge/YOLOv8-21262d?style=flat-square&logo=yolo&logoColor=c9d1d9" alt="YOLOv8"/>
 <img src="https://img.shields.io/badge/OpenCV-21262d?style=flat-square&logo=opencv&logoColor=c9d1d9" alt="OpenCV"/>
-<img src="https://img.shields.io/badge/Transfer%20learning-21262d?style=flat-square&logoColor=c9d1d9" alt="Transfer learning"/>
-</p>
-
-</div>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<div style="background:#161b22;border:1px solid #30363d;border-radius:10px;border-left:4px solid #056763;padding:14px 16px;margin:6px 4px 6px 0;height:100%;box-shadow:0 0 0 1px #0d1117 inset;">
+### 🗄️ Data Engineering & Analytics
 
-### Data Engineering & Analytics
+**Pandas**, **NumPy**, preprocessing, **ETL**, CSV, Excel, **SQLite**, **PostgreSQL**, structured pipelines and analytical apps that make slices of the data legible.
 
-**Pandas**, **NumPy**, **preprocessing**, **ETL**, **CSV**, **Excel**, **SQLite**, structured pipelines, **dashboards** and analytical apps that make slices of the data legible.
-
-<p align="center">
 <img src="https://img.shields.io/badge/Pandas-21262d?style=flat-square&logo=pandas&logoColor=c9d1d9" alt="Pandas"/>
 <img src="https://img.shields.io/badge/NumPy-21262d?style=flat-square&logo=numpy&logoColor=c9d1d9" alt="NumPy"/>
-<img src="https://img.shields.io/badge/SQLite-21262d?style=flat-square&logo=sqlite&logoColor=c9d1d9" alt="SQLite"/>
+<img src="https://img.shields.io/badge/PostgreSQL-21262d?style=flat-square&logo=postgresql&logoColor=c9d1d9" alt="PostgreSQL"/>
 <img src="https://img.shields.io/badge/ETL-21262d?style=flat-square&logoColor=c9d1d9" alt="ETL"/>
-</p>
-
-</div>
 
 </td>
 <td width="50%" valign="top">
 
-<div style="background:#161b22;border:1px solid #30363d;border-radius:10px;border-left:4px solid #1f6feb;padding:14px 16px;margin:6px 0 6px 4px;height:100%;box-shadow:0 0 0 1px #0d1117 inset;">
+### 🚀 APIs, Apps & Deployment
 
-### APIs, Apps & Deployment
+**FastAPI**, **React / Next.js**, **Streamlit**, API-first ML demos and interactive dashboards, shipped on **Hugging Face Spaces**, **GitHub Pages**, **Vercel**, **Firebase**, **Supabase**, **GCP**, **AWS**.
 
-**FastAPI**, **Streamlit**, **HTML**, **CSS**, **JavaScript**, **API-first ML demos**, interactive dashboards, shipping via **Hugging Face Spaces**, **GitHub Pages**, **Vercel**, **Firebase**, **Supabase**, **GCP**, **AWS**.
-
-<p align="center">
 <img src="https://img.shields.io/badge/FastAPI-21262d?style=flat-square&logo=fastapi&logoColor=c9d1d9" alt="FastAPI"/>
+<img src="https://img.shields.io/badge/Next.js-21262d?style=flat-square&logo=nextdotjs&logoColor=c9d1d9" alt="Next.js"/>
 <img src="https://img.shields.io/badge/Streamlit-21262d?style=flat-square&logo=streamlit&logoColor=c9d1d9" alt="Streamlit"/>
-<img src="https://img.shields.io/badge/JavaScript-21262d?style=flat-square&logo=javascript&logoColor=c9d1d9" alt="JavaScript"/>
 <img src="https://img.shields.io/badge/Hugging%20Face-21262d?style=flat-square&logo=huggingface&logoColor=c9d1d9" alt="Hugging Face"/>
-<img src="https://img.shields.io/badge/Vercel-21262d?style=flat-square&logo=vercel&logoColor=c9d1d9" alt="Vercel"/>
-<img src="https://img.shields.io/badge/AWS-21262d?style=flat-square&logo=amazonaws&logoColor=c9d1d9" alt="AWS"/>
-<img src="https://img.shields.io/badge/GCP-21262d?style=flat-square&logo=googlecloud&logoColor=c9d1d9" alt="GCP"/>
-</p>
-
-</div>
 
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td colspan="2" valign="top">
 
-<div style="background:#161b22;border:1px solid #30363d;border-radius:10px;border-left:4px solid #8957e5;padding:14px 16px;margin:6px 0;box-shadow:0 0 0 1px #0d1117 inset;">
+### 🤖 AI Systems & Automation
 
-### AI Systems & Automation
+**RAG**, document Q&A, local models with **Ollama**, **Groq** and **Gemini** API integrations, **AI automation workflows** that combine retrieval, tools and guardrails instead of one-off prompts.
 
-**RAG**, **document Q&A**, **local models with Ollama**, **Groq** and **Gemini** API integrations, **AI automation workflows** that combine retrieval, tools and guardrails instead of one-off prompts.
-
-<p align="center">
 <img src="https://img.shields.io/badge/RAG-21262d?style=flat-square&logoColor=c9d1d9" alt="RAG"/>
-<img src="https://img.shields.io/badge/Ollama-21262d?style=flat-square&logoColor=c9d1d9" alt="Ollama"/>
-<img src="https://img.shields.io/badge/Gemini-21262d?style=flat-square&logo=googlebard&logoColor=c9d1d9" alt="Gemini"/>
+<img src="https://img.shields.io/badge/LangChain-21262d?style=flat-square&logo=langchain&logoColor=c9d1d9" alt="LangChain"/>
+<img src="https://img.shields.io/badge/FAISS-21262d?style=flat-square&logoColor=c9d1d9" alt="FAISS"/>
+<img src="https://img.shields.io/badge/Ollama-21262d?style=flat-square&logo=ollama&logoColor=c9d1d9" alt="Ollama"/>
+<img src="https://img.shields.io/badge/Gemini-21262d?style=flat-square&logo=googlegemini&logoColor=c9d1d9" alt="Gemini"/>
 <img src="https://img.shields.io/badge/Groq-21262d?style=flat-square&logoColor=c9d1d9" alt="Groq"/>
-<img src="https://img.shields.io/badge/Document%20Q%26A-21262d?style=flat-square&logoColor=c9d1d9" alt="Document Q&amp;A"/>
-</p>
-
-</div>
 
 </td>
 </tr>
@@ -219,228 +165,187 @@ Predictive systems on structured data: **scikit-learn**, **XGBoost**, **classifi
 
 ## Featured projects
 
-Preview thumbnails live **in this repo** under `assets/readme/projects/` (exported from the portfolio site assets and resized for lighter loads). Live demos link directly to each hosted app; the full grid is on **[sidnei-almeida.github.io/projects](https://sidnei-almeida.github.io/projects)**.
+Nine shipped demos, each with a live deployment. Preview thumbnails live in this repo under `assets/readme/projects/`; the full grid is on **[sidnei-almeida.github.io/projects](https://sidnei-almeida.github.io/projects)**.
 
-<div style="display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start;margin:18px 0;padding:16px 18px;border-radius:12px;border:1px solid #30363d;background:linear-gradient(145deg,rgba(56,139,253,0.09),rgba(22,27,34,0.35));border-left:4px solid #388bfd;">
-
-<img src="./assets/readme/projects/docmind.webp" alt="DocMind RAG document QA preview" width="252" style="border-radius:10px;border:1px solid rgba(56,139,253,0.5);max-width:100%;"/>
-
-<div style="flex:1;min-width:260px;">
+<table>
+<tr>
+<td width="280" valign="top">
+<img src="./assets/readme/projects/docmind.webp" width="270" alt="DocMind RAG document QA preview"/>
+</td>
+<td valign="top">
 
 ### DocMind — RAG Document QA Assistant
 
-<p>
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
 <img src="https://img.shields.io/badge/RAG-8957e5?style=flat-square&logoColor=white" alt="RAG"/>
 <img src="https://img.shields.io/badge/FAISS-0969da?style=flat-square&logoColor=white" alt="FAISS"/>
 <img src="https://img.shields.io/badge/LangChain-8250df?style=flat-square&logo=langchain&logoColor=white" alt="LangChain"/>
 <img src="https://img.shields.io/badge/FastAPI-059669?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
 <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white" alt="Groq"/>
-</p>
 
-**Problem:** Answer questions over PDFs with evidence grounded in the source document.  
-**Stack:** **React**, **FastAPI**, **FAISS**, **LangChain**, **Groq** — ingestion, chunking, retrieval and source-grounded Q&A.  
-**Result:** Full document intelligence workflow: workspace status, retrieved passages, confidence metadata and polished UI.  
-**Impact:** Cuts research latency on long reports while keeping answers tied to citations.
+**Problem** · Answer questions over PDFs with evidence grounded in the source document.  
+**Stack** · React, FastAPI, FAISS, LangChain, Groq — ingestion, chunking, retrieval and source-grounded Q&A.  
+**Result** · Workspace status, retrieved passages, confidence metadata and a polished UI; cuts research latency on long reports while keeping answers tied to citations.
 
 [**Repository**](https://github.com/sidnei-almeida/rag-document-qa-assistant) · [**Live demo**](https://rag-document-qa-assistant.vercel.app/)
 
-</div></div>
+</td>
+</tr>
 
-<div style="display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start;margin:18px 0;padding:16px 18px;border-radius:12px;border:1px solid #30363d;background:linear-gradient(145deg,rgba(137,87,229,0.09),rgba(22,27,34,0.35));border-left:4px solid #8957e5;">
-
-<img src="./assets/readme/projects/industrial-anomaly.webp" alt="Industrial anomaly monitor preview" width="252" style="border-radius:10px;border:1px solid rgba(137,87,229,0.45);max-width:100%;"/>
-
-<div style="flex:1;min-width:260px;">
+<tr>
+<td width="280" valign="top">
+<img src="./assets/readme/projects/industrial-anomaly.webp" width="270" alt="Industrial anomaly monitor preview"/>
+</td>
+<td valign="top">
 
 ### Real-Time Industrial Anomaly Monitor
 
-<p>
 <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
 <img src="https://img.shields.io/badge/Autoencoder-8957e5?style=flat-square&logoColor=white" alt="Autoencoder"/>
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
 <img src="https://img.shields.io/badge/FastAPI-059669?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-<img src="https://img.shields.io/badge/Industrial%20ML-bc4c00?style=flat-square&logoColor=white" alt="Industrial ML"/>
-</p>
 
-**Problem:** Surface rare failures in high-dimensional semiconductor process telemetry before they escalate.  
-**Stack:** **Next.js** ops UI, **FastAPI** autoencoder on Hugging Face, SECOM-style replay as a simulated live sensor stream.  
-**Result:** Reconstruction-based anomaly scoring, threshold alerts and production-inspired monitoring — not a static notebook plot.  
-**Impact:** Turns reconstruction error into an operational signal engineers can watch in real time.
+**Problem** · Surface rare failures in high-dimensional semiconductor process telemetry before they escalate.  
+**Stack** · Next.js ops UI, FastAPI autoencoder on Hugging Face, SECOM-style replay as a simulated live sensor stream.  
+**Result** · Reconstruction-based scoring and threshold alerts — reconstruction error turned into an operational signal engineers watch in real time.
 
 [**Repository**](https://github.com/sidnei-almeida/industrial-iot-anomaly-monitor) · [**Live demo**](https://industrial-iot-anomaly-monitor.vercel.app/)
 
-</div></div>
+</td>
+</tr>
 
-<div style="display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start;margin:18px 0;padding:16px 18px;border-radius:12px;border:1px solid #30363d;background:linear-gradient(145deg,rgba(240,136,62,0.08),rgba(22,27,34,0.35));border-left:4px solid #f0883e;">
-
-<img src="./assets/readme/projects/cinescope.webp" alt="CineScope semantic movie discovery preview" width="252" style="border-radius:10px;border:1px solid rgba(240,136,62,0.45);max-width:100%;"/>
-
-<div style="flex:1;min-width:260px;">
-
-### CineScope Intelligence
-
-<p>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
-<img src="https://img.shields.io/badge/BERT-bc4c00?style=flat-square&logoColor=white" alt="BERT"/>
-<img src="https://img.shields.io/badge/TMDb-01d277?style=flat-square&logo=tmdb&logoColor=white" alt="TMDb"/>
-<img src="https://img.shields.io/badge/FastAPI-059669?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-</p>
-
-**Problem:** Discover films by theme, mood, cast or story — not genre tags alone.  
-**Stack:** **BERT** semantic recommendations, **TMDb** enrichment (posters, trailers, cast), **React** + **FastAPI**.  
-**Result:** Featured titles, match scores, recommendation grid and cinematic product UX.  
-**Impact:** Portfolio-grade NLP integration with real API orchestration and ranking.
-
-[**Repository**](https://github.com/sidnei-almeida/tmdb-semantic-recommender) · [**Live demo**](https://cinescope-semantic-discovery.vercel.app/)
-
-</div></div>
-
-<div style="display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start;margin:18px 0;padding:16px 18px;border-radius:12px;border:1px solid #30363d;background:linear-gradient(145deg,rgba(35,134,54,0.1),rgba(22,27,34,0.35));border-left:4px solid #238636;">
-
-<img src="./assets/readme/projects/pm-monitor.webp" alt="PM Monitor predictive maintenance preview" width="252" style="border-radius:10px;border:1px solid rgba(63,185,80,0.45);max-width:100%;"/>
-
-<div style="flex:1;min-width:260px;">
-
-### PM Monitor · Real-Time Predictive Maintenance
-
-<p>
-<img src="https://img.shields.io/badge/LSTM-056763?style=flat-square&logoColor=white" alt="LSTM"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
-<img src="https://img.shields.io/badge/FastAPI-059669?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-</p>
-
-**Problem:** Anticipate equipment failure risk from multivariate sensor streams before hard downtime.  
-**Stack:** Rolling **LSTM** sequences, **TensorFlow**, **FastAPI**, control-room **React** dashboard.  
-**Result:** Live telemetry replay, failure probability, asset health, thresholds and event logs.  
-**Impact:** Moves maintenance from reactive tickets to monitored, sequence-based risk signals.
-
-[**Repository**](https://github.com/sidnei-almeida/lstm-predictive-maintenance-dashboard) · [**Live demo**](https://lstm-predictive-maintenance-dashboa.vercel.app/)
-
-</div></div>
-
-<div style="display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start;margin:18px 0;padding:16px 18px;border-radius:12px;border:1px solid #30363d;background:linear-gradient(145deg,rgba(218,54,51,0.07),rgba(22,27,34,0.35));border-left:4px solid #da3633;">
-
-<img src="./assets/readme/projects/visual-anomaly.webp" alt="Visual anomaly comparison lab preview" width="252" style="border-radius:10px;border:1px solid rgba(248,81,73,0.4);max-width:100%;"/>
-
-<div style="flex:1;min-width:260px;">
-
-### Visual Anomaly Comparison Lab
-
-<p>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
-<img src="https://img.shields.io/badge/Autoencoder-da3633?style=flat-square&logoColor=white" alt="Autoencoder"/>
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
-<img src="https://img.shields.io/badge/FastAPI-059669?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-</p>
-
-**Problem:** Inspect industrial bottle samples with interpretable visual anomaly cues.  
-**Stack:** Denoising convolutional **autoencoder** (**PyTorch**), **FastAPI**, **React** side-by-side comparison UI.  
-**Result:** Original vs reconstruction, error heatmaps, masks, scores and thresholded regions.  
-**Impact:** QC workflow that explains *why* a sample looks anomalous, not only a single score.
-
-[**Repository**](https://github.com/sidnei-almeida/visual-anomaly-comparison-lab) · [**Live demo**](https://visual-anomaly-comparison-lab.vercel.app/)
-
-</div></div>
-
-<div style="display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start;margin:18px 0;padding:16px 18px;border-radius:12px;border:1px solid #30363d;background:linear-gradient(145deg,rgba(31,111,235,0.09),rgba(22,27,34,0.35));border-left:4px solid #1f6feb;">
-
-<img src="./assets/readme/projects/platepulse.webp" alt="PlatePulse vehicle intelligence preview" width="252" style="border-radius:10px;border:1px solid rgba(88,166,255,0.45);max-width:100%;"/>
-
-<div style="flex:1;min-width:260px;">
+<tr>
+<td width="280" valign="top">
+<img src="./assets/readme/projects/platepulse.webp" width="270" alt="PlatePulse vehicle intelligence preview"/>
+</td>
+<td valign="top">
 
 ### PlatePulse Vehicle Intelligence
 
-<p>
 <img src="https://img.shields.io/badge/YOLOv8-149945?style=flat-square&logo=yolo&logoColor=white" alt="YOLOv8"/>
 <img src="https://img.shields.io/badge/OCR-0969da?style=flat-square&logoColor=white" alt="OCR"/>
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
 <img src="https://img.shields.io/badge/FastAPI-059669?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-</p>
 
-**Problem:** Detect and read Brazilian license plates in vehicle images for monitoring or access flows.  
-**Stack:** Two-stage pipeline — **YOLOv8** plate detection API, crop, then **OCR/ALPR** API; **React** control-room UI.  
-**Result:** Bounding boxes, plate crop, OCR text, confidence, pipeline status and export hooks.  
-**Impact:** End-to-end ALPR product surface, not a single-model notebook snapshot.
+**Problem** · Detect and read Brazilian license plates in vehicle images for monitoring or access flows.  
+**Stack** · Two-stage pipeline — YOLOv8 plate detection API, crop, then OCR/ALPR API; React control-room UI.  
+**Result** · Bounding boxes, plate crop, OCR text, confidence and pipeline status: an end-to-end ALPR product surface, not a single-model notebook snapshot.
 
 [**Repository**](https://github.com/sidnei-almeida/platepulse-vehicle-intelligence) · [**Live demo**](https://platepulse-vehicle-intelligence.vercel.app/)
 
-</div></div>
+</td>
+</tr>
 
-<div style="display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start;margin:18px 0;padding:16px 18px;border-radius:12px;border:1px solid #30363d;background:linear-gradient(145deg,rgba(88,166,255,0.08),rgba(22,27,34,0.35));border-left:4px solid #58a6ff;">
-
-<img src="./assets/readme/projects/corporate-signal.webp" alt="Corporate Signal Intelligence preview" width="252" style="border-radius:10px;border:1px solid rgba(88,166,255,0.45);max-width:100%;"/>
-
-<div style="flex:1;min-width:260px;">
+<tr>
+<td width="280" valign="top">
+<img src="./assets/readme/projects/corporate-signal.webp" width="270" alt="Corporate Signal Intelligence preview"/>
+</td>
+<td valign="top">
 
 ### Corporate Signal Intelligence
 
-<p>
 <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
 <img src="https://img.shields.io/badge/Isolation%20Forest-0969da?style=flat-square&logoColor=white" alt="Isolation Forest"/>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
 <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white" alt="Groq"/>
-</p>
 
-**Problem:** Monitor public companies and flag anomalous events across financial and operational signals.  
-**Stack:** **FastAPI**, **Isolation Forest**, **PostgreSQL/Neon**, **Next.js**, Groq executive briefings (Llama 3.3 70B).  
-**Result:** Overview, anomaly investigation, company intelligence and AI-generated executive summaries.  
-**Impact:** End-to-end corporate analytics product, not a single-chart dashboard.
+**Problem** · Monitor public companies and flag anomalous events across financial and operational signals.  
+**Stack** · FastAPI, Isolation Forest, PostgreSQL/Neon, Next.js, Groq executive briefings (Llama 3.3 70B).  
+**Result** · Overview, anomaly investigation, company intelligence and AI-generated executive summaries — a full analytics product, not a single-chart dashboard.
 
 [**Repository**](https://github.com/sidnei-almeida/corporate-signal-intelligence-dashboard) · [**Live demo**](https://corporate-signal-intelligence-dashb.vercel.app/)
 
-</div></div>
+</td>
+</tr>
+</table>
 
-<div style="display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start;margin:18px 0;padding:16px 18px;border-radius:12px;border:1px solid #30363d;background:linear-gradient(145deg,rgba(163,113,247,0.09),rgba(22,27,34,0.35));border-left:4px solid #a371f7;">
+<details>
+<summary><b>More shipped projects</b> — five additional live demos</summary>
 
-<img src="./assets/readme/projects/gray-matter.webp" alt="Gray Matter LABS research workspace preview" width="252" style="border-radius:10px;border:1px solid rgba(163,113,247,0.45);max-width:100%;"/>
+<br/>
 
-<div style="flex:1;min-width:260px;">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### Gray Matter LABS
+<img src="./assets/readme/projects/pm-monitor.webp" width="100%" alt="PM Monitor predictive maintenance preview"/>
 
-<p>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
-<img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white" alt="Groq"/>
-<img src="https://img.shields.io/badge/arXiv-b31b1b?style=flat-square&logoColor=white" alt="arXiv"/>
-<img src="https://img.shields.io/badge/AI%20Agent-a371f7?style=flat-square&logoColor=white" alt="AI Agent"/>
-</p>
+**PM Monitor · Real-Time Predictive Maintenance**
 
-**Problem:** Run structured research sessions with scientific tools, not a single generic chat box.  
-**Stack:** **React** workspace, **Groq**, arXiv discovery, web and Wikipedia tools, multi-conversation memory.  
-**Result:** Tool-aware responses with a lab-inspired UX and local chat history.  
-**Impact:** Shows agentic LLM product design: orchestration, retrieval hooks and deliberate persona.
+Rolling **LSTM** sequences over multivariate sensor streams: live telemetry replay, failure probability, asset health, thresholds and event logs in a control-room React dashboard.
 
-[**Repository**](https://github.com/sidnei-almeida/gray-matter-research-agent) · [**Live demo**](https://gray-matter-research-agent.vercel.app/)
+`LSTM` `TensorFlow` `FastAPI` `React`
 
-</div></div>
+[Repository](https://github.com/sidnei-almeida/lstm-predictive-maintenance-dashboard) · [Live demo](https://lstm-predictive-maintenance-dashboa.vercel.app/)
 
-<div style="display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start;margin:18px 0;padding:16px 18px;border-radius:12px;border:1px solid #30363d;background:linear-gradient(145deg,rgba(63,185,80,0.1),rgba(22,27,34,0.35));border-left:4px solid #3fb950;">
+</td>
+<td width="50%" valign="top">
 
-<img src="./assets/readme/projects/rl-portfolio.webp" alt="RL portfolio allocation dashboard preview" width="252" style="border-radius:10px;border:1px solid rgba(63,185,80,0.45);max-width:100%;"/>
+<img src="./assets/readme/projects/visual-anomaly.webp" width="100%" alt="Visual anomaly comparison lab preview"/>
 
-<div style="flex:1;min-width:260px;">
+**Visual Anomaly Comparison Lab**
 
-### RL Portfolio Allocation Dashboard
+Denoising convolutional **autoencoder** for industrial bottle inspection: original vs reconstruction, error heatmaps, masks and thresholded regions that explain *why* a sample looks anomalous.
 
-<p>
-<img src="https://img.shields.io/badge/PPO-238636?style=flat-square&logoColor=white" alt="PPO"/>
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
-<img src="https://img.shields.io/badge/FastAPI-059669?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-<img src="https://img.shields.io/badge/Paper%20trading-bc4c00?style=flat-square&logoColor=white" alt="Paper trading"/>
-</p>
+`PyTorch` `Autoencoder` `OpenCV` `FastAPI`
 
-**Problem:** Explore PPO-based allocation policies with risk guardrails and readable market analytics.  
-**Stack:** **PPO** policy inference, **FastAPI**, **Next.js**, Stooq historical replay, simulated paper trading.  
-**Result:** Conservative / Balanced / Aggressive modes, exposure view, benchmarks and execution feed (no live broker).  
-**Impact:** Highlights ML systems thinking: guardrails, instrumentation and operator-facing controls.
+[Repository](https://github.com/sidnei-almeida/visual-anomaly-comparison-lab) · [Live demo](https://visual-anomaly-comparison-lab.vercel.app/)
 
-[**Repository**](https://github.com/sidnei-almeida/ai-trading-signals-dashboard) · [**Live demo**](https://ai-trading-signals-dashboard.vercel.app/)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-</div></div>
+<img src="./assets/readme/projects/cinescope.webp" width="100%" alt="CineScope semantic movie discovery preview"/>
 
-<sub>Older experiments and additional repositories remain on GitHub; the curated portfolio grid (9 shipped demos) lives at <a href="https://sidnei-almeida.github.io/projects">sidnei-almeida.github.io/projects</a>.</sub>
+**CineScope Intelligence**
+
+**BERT** semantic recommendations with TMDb enrichment (posters, trailers, cast): featured titles, match scores and a recommendation grid — NLP plus real API orchestration and ranking.
+
+`BERT` `TMDb` `React` `FastAPI`
+
+[Repository](https://github.com/sidnei-almeida/tmdb-semantic-recommender) · [Live demo](https://cinescope-semantic-discovery.vercel.app/)
+
+</td>
+<td width="50%" valign="top">
+
+<img src="./assets/readme/projects/gray-matter.webp" width="100%" alt="Gray Matter LABS research workspace preview"/>
+
+**Gray Matter LABS**
+
+Structured research sessions instead of a generic chat box: Groq-backed agent with arXiv discovery, web and Wikipedia tools, multi-conversation memory and a lab-inspired workspace UX.
+
+`React` `Groq` `arXiv` `AI Agent`
+
+[Repository](https://github.com/sidnei-almeida/gray-matter-research-agent) · [Live demo](https://gray-matter-research-agent.vercel.app/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="./assets/readme/projects/rl-portfolio.webp" width="100%" alt="RL portfolio allocation dashboard preview"/>
+
+**RL Portfolio Allocation Dashboard**
+
+**PPO** allocation policies with risk guardrails: Conservative / Balanced / Aggressive modes, exposure view, benchmarks and a simulated execution feed over Stooq historical replay (no live broker).
+
+`PPO` `Next.js` `FastAPI` `Paper trading`
+
+[Repository](https://github.com/sidnei-almeida/ai-trading-signals-dashboard) · [Live demo](https://ai-trading-signals-dashboard.vercel.app/)
+
+</td>
+<td width="50%" valign="top">
+
+<br/>
+
+<sub>Older experiments and additional repositories remain on GitHub. The curated portfolio grid lives at <a href="https://sidnei-almeida.github.io/projects">sidnei-almeida.github.io/projects</a>.</sub>
+
+</td>
+</tr>
+</table>
+
+</details>
 
 <br/>
 
@@ -457,22 +362,17 @@ Preview thumbnails live **in this repo** under `assets/readme/projects/` (export
 
 <br/>
 
-<!-- GITHUB ACTIVITY SECTION START -->
-
-## GitHub Activity
+## GitHub activity
 
 <div align="center">
 
-<div style="display:inline-block;border:1px solid #30363d;border-radius:12px;background:linear-gradient(180deg,#161b22 0%,#0d1117 100%);padding:14px 18px 10px;">
+<img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=sidnei-almeida&show_icons=true&hide_border=true&bg_color=0D1117&title_color=79C0FF&text_color=C9D1D9&icon_color=388BFD&border_radius=10&include_all_commits=true&count_private=false&rank_icon=github" alt="GitHub stats"/>
+<img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=sidnei-almeida&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=79C0FF&text_color=C9D1D9&border_radius=10" alt="Most used languages"/>
 
-<img
-  src="https://github-readme-stats-sigma-five.vercel.app/api?username=sidnei-almeida&show_icons=true&hide_title=false&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF&border_color=30363d&border_radius=10&include_all_commits=true&count_private=false&rank_icon=github"
-  alt="Sidnei Alves de Almeida GitHub Stats"
-  width="520"
-/>
+<br/><br/>
+
+<img src="./assets/readme/accent-bar.svg" width="88%" alt=""/>
+
+<sub>Open to AI / ML engineering work — <a href="mailto:sidnei.almeida1806@gmail.com">sidnei.almeida1806@gmail.com</a></sub>
 
 </div>
-
-</div>
-
-<!-- GITHUB ACTIVITY SECTION END -->
