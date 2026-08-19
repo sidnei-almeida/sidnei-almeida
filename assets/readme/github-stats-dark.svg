@@ -32,12 +32,12 @@
 <text x="634" y="114" class="l">months building</text>
 <rect x="28" y="150" width="764" height="9" rx="4.5" fill="#21262d"/>
 <g clip-path="url(#barclip)">
-<rect x="28.0" y="150" width="339.6" height="9" fill="#3572A5"/>
-<rect x="367.6" y="150" width="159.2" height="9" fill="#DA5B0B"/>
-<rect x="526.7" y="150" width="106.1" height="9" fill="#3178C6"/>
-<rect x="632.8" y="150" width="84.9" height="9" fill="#F1E05A"/>
-<rect x="717.7" y="150" width="42.4" height="9" fill="#E34C26"/>
-<rect x="760.2" y="150" width="10.6" height="9" fill="#3D6117"/>
+<rect x="28.0" y="150" width="345.4" height="9" fill="#3572A5"/>
+<rect x="373.4" y="150" width="157.0" height="9" fill="#DA5B0B"/>
+<rect x="530.4" y="150" width="104.7" height="9" fill="#3178C6"/>
+<rect x="635.0" y="150" width="83.7" height="9" fill="#F1E05A"/>
+<rect x="718.7" y="150" width="41.9" height="9" fill="#E34C26"/>
+<rect x="760.6" y="150" width="10.5" height="9" fill="#3D6117"/>
 </g>
 <circle cx="32" cy="177" r="4" fill="#3572A5"/>
 <text x="42" y="181" class="g">Python</text>
