@@ -88,80 +88,15 @@ RAG, document Q&A, automation flows beyond a single `.ipynb`.
 
 ## Technical stack
 
-Grouped by **what I deliver**. Foundation across all pillars: **Python**, **SQL**, **JavaScript**, **Git**, **GitHub**.
+Grouped by **what I deliver**. Foundation across every pillar: **Python**, **SQL**, **JavaScript**, **Git**.
 
 <table>
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 Machine Learning Engineering
-
-Predictive systems on structured data: **scikit-learn**, **XGBoost**, classification, regression, clustering, feature engineering, cross-validation and disciplined model evaluation so comparisons stay grounded.
-
-<img src="https://img.shields.io/badge/Python-21262d?style=flat-square&logo=python&logoColor=c9d1d9" alt="Python"/>
-<img src="https://img.shields.io/badge/scikit--learn-21262d?style=flat-square&logo=scikitlearn&logoColor=c9d1d9" alt="scikit-learn"/>
-<img src="https://img.shields.io/badge/XGBoost-21262d?style=flat-square&logo=xgboost&logoColor=c9d1d9" alt="XGBoost"/>
-<img src="https://img.shields.io/badge/Cross--validation-21262d?style=flat-square&logoColor=c9d1d9" alt="Cross-validation"/>
-
-</td>
-<td width="50%" valign="top">
-
-### 👁️ Deep Learning & Computer Vision
-
-**PyTorch**, **TensorFlow / Keras**, transfer learning, autoencoders, **LSTM** when sequences carry signal, **YOLOv8**, **OpenCV**, object detection, image classification, **ALPR** and real-time inference workflows.
-
-<img src="https://img.shields.io/badge/PyTorch-21262d?style=flat-square&logo=pytorch&logoColor=c9d1d9" alt="PyTorch"/>
-<img src="https://img.shields.io/badge/TensorFlow-21262d?style=flat-square&logo=tensorflow&logoColor=c9d1d9" alt="TensorFlow"/>
-<img src="https://img.shields.io/badge/YOLOv8-21262d?style=flat-square&logo=yolo&logoColor=c9d1d9" alt="YOLOv8"/>
-<img src="https://img.shields.io/badge/OpenCV-21262d?style=flat-square&logo=opencv&logoColor=c9d1d9" alt="OpenCV"/>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🗄️ Data Engineering & Analytics
-
-**Pandas**, **NumPy**, preprocessing, **ETL**, CSV, Excel, **SQLite**, **PostgreSQL**, structured pipelines and analytical apps that make slices of the data legible.
-
-<img src="https://img.shields.io/badge/Pandas-21262d?style=flat-square&logo=pandas&logoColor=c9d1d9" alt="Pandas"/>
-<img src="https://img.shields.io/badge/NumPy-21262d?style=flat-square&logo=numpy&logoColor=c9d1d9" alt="NumPy"/>
-<img src="https://img.shields.io/badge/PostgreSQL-21262d?style=flat-square&logo=postgresql&logoColor=c9d1d9" alt="PostgreSQL"/>
-<img src="https://img.shields.io/badge/ETL-21262d?style=flat-square&logoColor=c9d1d9" alt="ETL"/>
-
-</td>
-<td width="50%" valign="top">
-
-### 🚀 APIs, Apps & Deployment
-
-**FastAPI**, **React / Next.js**, **Streamlit**, API-first ML demos and interactive dashboards, shipped on **Hugging Face Spaces**, **GitHub Pages**, **Vercel**, **Firebase**, **Supabase**, **GCP**, **AWS**.
-
-<img src="https://img.shields.io/badge/FastAPI-21262d?style=flat-square&logo=fastapi&logoColor=c9d1d9" alt="FastAPI"/>
-<img src="https://img.shields.io/badge/Next.js-21262d?style=flat-square&logo=nextdotjs&logoColor=c9d1d9" alt="Next.js"/>
-<img src="https://img.shields.io/badge/Streamlit-21262d?style=flat-square&logo=streamlit&logoColor=c9d1d9" alt="Streamlit"/>
-<img src="https://img.shields.io/badge/Hugging%20Face-21262d?style=flat-square&logo=huggingface&logoColor=c9d1d9" alt="Hugging Face"/>
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-### 🤖 AI Systems & Automation
-
-**RAG**, document Q&A, local models with **Ollama**, **Groq** and **Gemini** API integrations, **AI automation workflows** that combine retrieval, tools and guardrails instead of one-off prompts.
-
-<img src="https://img.shields.io/badge/RAG-21262d?style=flat-square&logoColor=c9d1d9" alt="RAG"/>
-<img src="https://img.shields.io/badge/LangChain-21262d?style=flat-square&logo=langchain&logoColor=c9d1d9" alt="LangChain"/>
-<img src="https://img.shields.io/badge/FAISS-21262d?style=flat-square&logoColor=c9d1d9" alt="FAISS"/>
-<img src="https://img.shields.io/badge/Ollama-21262d?style=flat-square&logo=ollama&logoColor=c9d1d9" alt="Ollama"/>
-<img src="https://img.shields.io/badge/Gemini-21262d?style=flat-square&logo=googlegemini&logoColor=c9d1d9" alt="Gemini"/>
-<img src="https://img.shields.io/badge/Groq-21262d?style=flat-square&logoColor=c9d1d9" alt="Groq"/>
-
-</td>
-</tr>
+<tr><td valign="middle"><b>Machine Learning</b></td><td valign="middle"><img src="https://img.shields.io/badge/Python-21262d?style=flat-square&logo=python&logoColor=c9d1d9" alt="Python"/><img src="https://img.shields.io/badge/scikit--learn-21262d?style=flat-square&logo=scikitlearn&logoColor=c9d1d9" alt="scikit-learn"/><img src="https://img.shields.io/badge/XGBoost-21262d?style=flat-square&logo=xgboost&logoColor=c9d1d9" alt="XGBoost"/><img src="https://img.shields.io/badge/Pandas-21262d?style=flat-square&logo=pandas&logoColor=c9d1d9" alt="Pandas"/><img src="https://img.shields.io/badge/NumPy-21262d?style=flat-square&logo=numpy&logoColor=c9d1d9" alt="NumPy"/></td></tr>
+<tr><td valign="middle"><b>Deep Learning & Vision</b></td><td valign="middle"><img src="https://img.shields.io/badge/PyTorch-21262d?style=flat-square&logo=pytorch&logoColor=c9d1d9" alt="PyTorch"/><img src="https://img.shields.io/badge/TensorFlow-21262d?style=flat-square&logo=tensorflow&logoColor=c9d1d9" alt="TensorFlow"/><img src="https://img.shields.io/badge/Keras-21262d?style=flat-square&logo=keras&logoColor=c9d1d9" alt="Keras"/><img src="https://img.shields.io/badge/YOLOv8-21262d?style=flat-square&logo=yolo&logoColor=c9d1d9" alt="YOLOv8"/><img src="https://img.shields.io/badge/OpenCV-21262d?style=flat-square&logo=opencv&logoColor=c9d1d9" alt="OpenCV"/></td></tr>
+<tr><td valign="middle"><b>Data & Analytics</b></td><td valign="middle"><img src="https://img.shields.io/badge/SQL-21262d?style=flat-square&logoColor=c9d1d9" alt="SQL"/><img src="https://img.shields.io/badge/PostgreSQL-21262d?style=flat-square&logo=postgresql&logoColor=c9d1d9" alt="PostgreSQL"/><img src="https://img.shields.io/badge/SQLite-21262d?style=flat-square&logo=sqlite&logoColor=c9d1d9" alt="SQLite"/><img src="https://img.shields.io/badge/ETL-21262d?style=flat-square&logoColor=c9d1d9" alt="ETL"/><img src="https://img.shields.io/badge/Streamlit-21262d?style=flat-square&logo=streamlit&logoColor=c9d1d9" alt="Streamlit"/></td></tr>
+<tr><td valign="middle"><b>APIs & Deployment</b></td><td valign="middle"><img src="https://img.shields.io/badge/FastAPI-21262d?style=flat-square&logo=fastapi&logoColor=c9d1d9" alt="FastAPI"/><img src="https://img.shields.io/badge/React-21262d?style=flat-square&logo=react&logoColor=c9d1d9" alt="React"/><img src="https://img.shields.io/badge/Next.js-21262d?style=flat-square&logo=nextdotjs&logoColor=c9d1d9" alt="Next.js"/><img src="https://img.shields.io/badge/Docker-21262d?style=flat-square&logo=docker&logoColor=c9d1d9" alt="Docker"/><img src="https://img.shields.io/badge/Hugging%20Face-21262d?style=flat-square&logo=huggingface&logoColor=c9d1d9" alt="Hugging Face"/><img src="https://img.shields.io/badge/Vercel-21262d?style=flat-square&logo=vercel&logoColor=c9d1d9" alt="Vercel"/><img src="https://img.shields.io/badge/AWS-21262d?style=flat-square&logo=amazonaws&logoColor=c9d1d9" alt="AWS"/><img src="https://img.shields.io/badge/GCP-21262d?style=flat-square&logo=googlecloud&logoColor=c9d1d9" alt="GCP"/></td></tr>
+<tr><td valign="middle"><b>AI Systems</b></td><td valign="middle"><img src="https://img.shields.io/badge/RAG-21262d?style=flat-square&logoColor=c9d1d9" alt="RAG"/><img src="https://img.shields.io/badge/LangChain-21262d?style=flat-square&logo=langchain&logoColor=c9d1d9" alt="LangChain"/><img src="https://img.shields.io/badge/FAISS-21262d?style=flat-square&logoColor=c9d1d9" alt="FAISS"/><img src="https://img.shields.io/badge/Ollama-21262d?style=flat-square&logo=ollama&logoColor=c9d1d9" alt="Ollama"/><img src="https://img.shields.io/badge/Gemini-21262d?style=flat-square&logo=googlegemini&logoColor=c9d1d9" alt="Gemini"/><img src="https://img.shields.io/badge/Groq-21262d?style=flat-square&logoColor=c9d1d9" alt="Groq"/></td></tr>
 </table>
-
-<br/>
 
 ## Shipped projects
 
