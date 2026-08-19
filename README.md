@@ -163,189 +163,24 @@ Predictive systems on structured data: **scikit-learn**, **XGBoost**, classifica
 
 <br/>
 
-## Featured projects
+## Shipped projects
 
-Nine shipped demos, each with a live deployment. Preview thumbnails live in this repo under `assets/readme/projects/`; the full grid is on **[sidnei-almeida.github.io/projects](https://sidnei-almeida.github.io/projects)**.
+Nine deployed demos, each one a live URL rather than a notebook. Full grid with
+write-ups on **[sidnei-almeida.github.io/projects](https://sidnei-almeida.github.io/projects)**.
 
-<table>
-<tr>
-<td width="280" valign="top">
-<img src="./assets/readme/projects/docmind.webp" width="270" alt="DocMind RAG document QA preview"/>
-</td>
-<td valign="top">
+| Project | What it does | Stack | Code |
+| :--- | :--- | :--- | :---: |
+| **[DocMind](https://rag-document-qa-assistant.vercel.app/)** | Grounded Q&A over uploaded PDFs, answers tied to retrieved passages | React · FastAPI · FAISS · LangChain · Groq | [↗](https://github.com/sidnei-almeida/rag-document-qa-assistant) |
+| **[Industrial Anomaly Monitor](https://industrial-iot-anomaly-monitor.vercel.app/)** | Autoencoder scores a replayed SECOM sensor stream, alerts on threshold | Next.js · TensorFlow · FastAPI | [↗](https://github.com/sidnei-almeida/industrial-iot-anomaly-monitor) |
+| **[PlatePulse](https://platepulse-vehicle-intelligence.vercel.app/)** | Two-stage ALPR: YOLOv8 plate detection, then OCR on Brazilian plates | YOLOv8 · OCR · React · FastAPI | [↗](https://github.com/sidnei-almeida/platepulse-vehicle-intelligence) |
+| **[Corporate Signal](https://corporate-signal-intelligence-dashb.vercel.app/)** | Flags anomalous company events and writes executive briefings | Isolation Forest · PostgreSQL · Next.js · Groq | [↗](https://github.com/sidnei-almeida/corporate-signal-intelligence-dashboard) |
+| **[PM Monitor](https://lstm-predictive-maintenance-dashboa.vercel.app/)** | Rolling LSTM turns multivariate sensor streams into failure probability | LSTM · TensorFlow · FastAPI · React | [↗](https://github.com/sidnei-almeida/lstm-predictive-maintenance-dashboard) |
+| **[Visual Anomaly Lab](https://visual-anomaly-comparison-lab.vercel.app/)** | Denoising autoencoder with error heatmaps that explain the defect | PyTorch · OpenCV · FastAPI | [↗](https://github.com/sidnei-almeida/visual-anomaly-comparison-lab) |
+| **[CineScope](https://cinescope-semantic-discovery.vercel.app/)** | Semantic film search by theme and mood, enriched with TMDb metadata | BERT · TMDb · React · FastAPI | [↗](https://github.com/sidnei-almeida/tmdb-semantic-recommender) |
+| **[Gray Matter LABS](https://gray-matter-research-agent.vercel.app/)** | Research agent wired to arXiv, web and Wikipedia tools | React · Groq · arXiv | [↗](https://github.com/sidnei-almeida/gray-matter-research-agent) |
+| **[RL Portfolio Ops](https://ai-trading-signals-dashboard.vercel.app/)** | PPO allocation policies under risk guardrails, simulated paper trading | PPO · Next.js · FastAPI | [↗](https://github.com/sidnei-almeida/ai-trading-signals-dashboard) |
 
-### DocMind — RAG Document QA Assistant
-
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
-<img src="https://img.shields.io/badge/RAG-8957e5?style=flat-square&logoColor=white" alt="RAG"/>
-<img src="https://img.shields.io/badge/FAISS-0969da?style=flat-square&logoColor=white" alt="FAISS"/>
-<img src="https://img.shields.io/badge/LangChain-8250df?style=flat-square&logo=langchain&logoColor=white" alt="LangChain"/>
-<img src="https://img.shields.io/badge/FastAPI-059669?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-<img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white" alt="Groq"/>
-
-**Problem** · Answer questions over PDFs with evidence grounded in the source document.  
-**Stack** · React, FastAPI, FAISS, LangChain, Groq — ingestion, chunking, retrieval and source-grounded Q&A.  
-**Result** · Workspace status, retrieved passages, confidence metadata and a polished UI; cuts research latency on long reports while keeping answers tied to citations.
-
-[**Repository**](https://github.com/sidnei-almeida/rag-document-qa-assistant) · [**Live demo**](https://rag-document-qa-assistant.vercel.app/)
-
-</td>
-</tr>
-
-<tr>
-<td width="280" valign="top">
-<img src="./assets/readme/projects/industrial-anomaly.webp" width="270" alt="Industrial anomaly monitor preview"/>
-</td>
-<td valign="top">
-
-### Real-Time Industrial Anomaly Monitor
-
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
-<img src="https://img.shields.io/badge/Autoencoder-8957e5?style=flat-square&logoColor=white" alt="Autoencoder"/>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
-<img src="https://img.shields.io/badge/FastAPI-059669?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-
-**Problem** · Surface rare failures in high-dimensional semiconductor process telemetry before they escalate.  
-**Stack** · Next.js ops UI, FastAPI autoencoder on Hugging Face, SECOM-style replay as a simulated live sensor stream.  
-**Result** · Reconstruction-based scoring and threshold alerts — reconstruction error turned into an operational signal engineers watch in real time.
-
-[**Repository**](https://github.com/sidnei-almeida/industrial-iot-anomaly-monitor) · [**Live demo**](https://industrial-iot-anomaly-monitor.vercel.app/)
-
-</td>
-</tr>
-
-<tr>
-<td width="280" valign="top">
-<img src="./assets/readme/projects/platepulse.webp" width="270" alt="PlatePulse vehicle intelligence preview"/>
-</td>
-<td valign="top">
-
-### PlatePulse Vehicle Intelligence
-
-<img src="https://img.shields.io/badge/YOLOv8-149945?style=flat-square&logo=yolo&logoColor=white" alt="YOLOv8"/>
-<img src="https://img.shields.io/badge/OCR-0969da?style=flat-square&logoColor=white" alt="OCR"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
-<img src="https://img.shields.io/badge/FastAPI-059669?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-
-**Problem** · Detect and read Brazilian license plates in vehicle images for monitoring or access flows.  
-**Stack** · Two-stage pipeline — YOLOv8 plate detection API, crop, then OCR/ALPR API; React control-room UI.  
-**Result** · Bounding boxes, plate crop, OCR text, confidence and pipeline status: an end-to-end ALPR product surface, not a single-model notebook snapshot.
-
-[**Repository**](https://github.com/sidnei-almeida/platepulse-vehicle-intelligence) · [**Live demo**](https://platepulse-vehicle-intelligence.vercel.app/)
-
-</td>
-</tr>
-
-<tr>
-<td width="280" valign="top">
-<img src="./assets/readme/projects/corporate-signal.webp" width="270" alt="Corporate Signal Intelligence preview"/>
-</td>
-<td valign="top">
-
-### Corporate Signal Intelligence
-
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
-<img src="https://img.shields.io/badge/Isolation%20Forest-0969da?style=flat-square&logoColor=white" alt="Isolation Forest"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-<img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logoColor=white" alt="Groq"/>
-
-**Problem** · Monitor public companies and flag anomalous events across financial and operational signals.  
-**Stack** · FastAPI, Isolation Forest, PostgreSQL/Neon, Next.js, Groq executive briefings (Llama 3.3 70B).  
-**Result** · Overview, anomaly investigation, company intelligence and AI-generated executive summaries — a full analytics product, not a single-chart dashboard.
-
-[**Repository**](https://github.com/sidnei-almeida/corporate-signal-intelligence-dashboard) · [**Live demo**](https://corporate-signal-intelligence-dashb.vercel.app/)
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><b>More shipped projects</b> — five additional live demos</summary>
-
-<br/>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<img src="./assets/readme/projects/pm-monitor.webp" width="100%" alt="PM Monitor predictive maintenance preview"/>
-
-**PM Monitor · Real-Time Predictive Maintenance**
-
-Rolling **LSTM** sequences over multivariate sensor streams: live telemetry replay, failure probability, asset health, thresholds and event logs in a control-room React dashboard.
-
-`LSTM` `TensorFlow` `FastAPI` `React`
-
-[Repository](https://github.com/sidnei-almeida/lstm-predictive-maintenance-dashboard) · [Live demo](https://lstm-predictive-maintenance-dashboa.vercel.app/)
-
-</td>
-<td width="50%" valign="top">
-
-<img src="./assets/readme/projects/visual-anomaly.webp" width="100%" alt="Visual anomaly comparison lab preview"/>
-
-**Visual Anomaly Comparison Lab**
-
-Denoising convolutional **autoencoder** for industrial bottle inspection: original vs reconstruction, error heatmaps, masks and thresholded regions that explain *why* a sample looks anomalous.
-
-`PyTorch` `Autoencoder` `OpenCV` `FastAPI`
-
-[Repository](https://github.com/sidnei-almeida/visual-anomaly-comparison-lab) · [Live demo](https://visual-anomaly-comparison-lab.vercel.app/)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<img src="./assets/readme/projects/cinescope.webp" width="100%" alt="CineScope semantic movie discovery preview"/>
-
-**CineScope Intelligence**
-
-**BERT** semantic recommendations with TMDb enrichment (posters, trailers, cast): featured titles, match scores and a recommendation grid — NLP plus real API orchestration and ranking.
-
-`BERT` `TMDb` `React` `FastAPI`
-
-[Repository](https://github.com/sidnei-almeida/tmdb-semantic-recommender) · [Live demo](https://cinescope-semantic-discovery.vercel.app/)
-
-</td>
-<td width="50%" valign="top">
-
-<img src="./assets/readme/projects/gray-matter.webp" width="100%" alt="Gray Matter LABS research workspace preview"/>
-
-**Gray Matter LABS**
-
-Structured research sessions instead of a generic chat box: Groq-backed agent with arXiv discovery, web and Wikipedia tools, multi-conversation memory and a lab-inspired workspace UX.
-
-`React` `Groq` `arXiv` `AI Agent`
-
-[Repository](https://github.com/sidnei-almeida/gray-matter-research-agent) · [Live demo](https://gray-matter-research-agent.vercel.app/)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<img src="./assets/readme/projects/rl-portfolio.webp" width="100%" alt="RL portfolio allocation dashboard preview"/>
-
-**RL Portfolio Allocation Dashboard**
-
-**PPO** allocation policies with risk guardrails: Conservative / Balanced / Aggressive modes, exposure view, benchmarks and a simulated execution feed over Stooq historical replay (no live broker).
-
-`PPO` `Next.js` `FastAPI` `Paper trading`
-
-[Repository](https://github.com/sidnei-almeida/ai-trading-signals-dashboard) · [Live demo](https://ai-trading-signals-dashboard.vercel.app/)
-
-</td>
-<td width="50%" valign="top">
-
-<br/>
-
-<sub>Older experiments and additional repositories remain on GitHub. The curated portfolio grid lives at <a href="https://sidnei-almeida.github.io/projects">sidnei-almeida.github.io/projects</a>.</sub>
-
-</td>
-</tr>
-</table>
-
-</details>
+<sub>Project name opens the live demo · ↗ opens the repository</sub>
 
 <br/>
 
