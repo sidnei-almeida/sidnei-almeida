@@ -19,7 +19,7 @@
 <rect x="0" y="0" width="12" height="4" fill="url(#accent)"/>
 <text x="28" y="42" class="t">GitHub at a glance</text>
 <rect x="28" y="58" width="176" height="70" rx="10" fill="#161b22" stroke="#30363d"/>
-<text x="46" y="94" class="v">74</text>
+<text x="46" y="94" class="v">76</text>
 <text x="46" y="114" class="l">public repos</text>
 <rect x="224" y="58" width="176" height="70" rx="10" fill="#161b22" stroke="#30363d"/>
 <text x="242" y="94" class="v">9</text>
@@ -32,12 +32,12 @@
 <text x="634" y="114" class="l">months building</text>
 <rect x="28" y="150" width="764" height="9" rx="4.5" fill="#21262d"/>
 <g clip-path="url(#barclip)">
-<rect x="28.0" y="150" width="340.7" height="9" fill="#3572A5"/>
-<rect x="368.7" y="150" width="154.9" height="9" fill="#DA5B0B"/>
-<rect x="523.6" y="150" width="113.6" height="9" fill="#3178C6"/>
-<rect x="637.1" y="150" width="82.6" height="9" fill="#F1E05A"/>
-<rect x="719.7" y="150" width="41.3" height="9" fill="#E34C26"/>
-<rect x="761.0" y="150" width="10.3" height="9" fill="#3D6117"/>
+<rect x="28.0" y="150" width="331.7" height="9" fill="#3572A5"/>
+<rect x="359.7" y="150" width="150.8" height="9" fill="#DA5B0B"/>
+<rect x="510.5" y="150" width="130.7" height="9" fill="#3178C6"/>
+<rect x="641.2" y="150" width="80.4" height="9" fill="#F1E05A"/>
+<rect x="721.6" y="150" width="40.2" height="9" fill="#E34C26"/>
+<rect x="761.8" y="150" width="10.1" height="9" fill="#3D6117"/>
 </g>
 <circle cx="32" cy="177" r="4" fill="#3572A5"/>
 <text x="42" y="181" class="g">Python</text>
