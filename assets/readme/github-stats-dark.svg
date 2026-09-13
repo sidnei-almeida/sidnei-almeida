@@ -19,7 +19,7 @@
 <rect x="0" y="0" width="12" height="4" fill="url(#accent)"/>
 <text x="28" y="42" class="t">GitHub at a glance</text>
 <rect x="28" y="58" width="176" height="70" rx="10" fill="#161b22" stroke="#30363d"/>
-<text x="46" y="94" class="v">74</text>
+<text x="46" y="94" class="v">75</text>
 <text x="46" y="114" class="l">public repos</text>
 <rect x="224" y="58" width="176" height="70" rx="10" fill="#161b22" stroke="#30363d"/>
 <text x="242" y="94" class="v">9</text>
